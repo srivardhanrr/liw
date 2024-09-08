@@ -65,8 +65,8 @@
 			<Sheet.Content side="left">
 				<nav class="grid gap-6 pt-16 text-lg font-medium">
 					<a href="/our-story" class="hover:text-primary">Our Story</a>
-					<a href="/products" class="hover:text-primary">All Products</a>
-					<a href="/cookbooks" class="hover:text-primary">Cookbooks</a>
+					<a href="/our-experts" class="hover:text-primary">Our Experts</a>
+					<a href="/symposium" class="hover:text-primary">Symposium</a>
 					<a href="/contact" class="hover:text-primary">Contact Us</a>
 				</nav>
 			</Sheet.Content>
