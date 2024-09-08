@@ -35,7 +35,7 @@
         <nav class="hidden md:flex items-center space-x-6 flex-1">
             <a href="/our-story" class="text-foreground hover:text-primary transition-colors">About Us</a>
             <a href="/symposium" class="text-foreground hover:text-primary transition-colors">Symposium</a>
-            <a href="/cookbooks" class="text-foreground hover:text-primary transition-colors">Cookbooks</a>
+            <!-- <a href="/cookbooks" class="text-foreground hover:text-primary transition-colors">Cookbooks</a> -->
             <a href="/contact" class="text-foreground hover:text-primary transition-colors">Contact Us</a>
         </nav>
 
