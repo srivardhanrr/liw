@@ -1,5 +1,21 @@
 <script lang="ts">
     import { Button } from "$lib/components/ui/button";
+	import { onMount } from "svelte";
+
+    let isVisible = false;
+  
+  onMount(() => {
+    const observer = new IntersectionObserver((entries) => {
+      isVisible = entries[0].isIntersecting;
+    }, { threshold: 0.1 });
+
+    const section = document.querySelector('.who-we-are-section');
+    if (section) observer.observe(section);
+
+    return () => {
+      if (section) observer.unobserve(section);
+    };
+  });
   </script>
   
   <section class="bg-white py-24 px-4 sm:px-6 lg:px-8">
@@ -56,6 +72,16 @@
           <!-- <div class="absolute inset-0 bg-brand-burgundy mix-blend-multiply opacity-20 rounded-lg"></div> -->
           <div class="absolute inset-0 bg-gradient-to-br from-brand-gold/30 to-transparent mix-blend-overlay rounded-lg"></div>
         </div>
+        <!-- <div class="md:w-5/12 transition-all duration-1000 ease-out delay-500" class:opacity-0={!isVisible} class:translate-x-10={!isVisible}>
+          <div class="relative">
+            <div class="absolute inset-0 bg-gradient-to-tr from-liw-burgundy to-red-950 rounded-lg transform rotate-6"></div>
+            <img
+              src="/images/bg-image.png"
+              alt="Leadership Innovation World"
+              class="relative z-10 rounded-lg shadow-xl w-full h-auto"
+            />
+          </div>
+        </div> -->
       </div>
     </div>
   </section>

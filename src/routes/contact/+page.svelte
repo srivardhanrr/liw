@@ -50,7 +50,7 @@
         </div>
         
         <!-- Contact Information -->
-        <div class="bg-gradient-to-br from-brand-burgundy to-brand-gold text-white p-8 rounded-r-xl flex flex-col justify-between">
+        <div class="bg-brand-burgundy  text-white p-8 rounded-r-xl flex flex-col justify-between">
           <div>
             <h2 class="text-2xl font-playfair mb-6">Contact Information</h2>
             <ul class="space-y-4">

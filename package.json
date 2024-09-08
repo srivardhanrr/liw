@@ -33,8 +33,10 @@
 		"@fontsource/playfair-display": "^5.0.25",
 		"bits-ui": "^0.21.13",
 		"clsx": "^2.1.1",
+		"embla-carousel-svelte": "^8.2.1",
 		"lucide-svelte": "^0.439.0",
 		"svelte-radix": "^1.1.1",
+		"swiper": "^11.1.12",
 		"tailwind-merge": "^2.5.2",
 		"tailwind-variants": "^0.2.1"
 	}

@@ -8,7 +8,7 @@
 	let faqs: any; // Define the type and value as needed
 </script>
 
-<div class="bg-gradient-to-r from-brand-black to-brand-burgundy">
+<div class="bg-gradient-to-r from-brand-black to-[#540c20]">
 	<main class="container mx-auto py-16">
 		<section class="mb-16 text-center">
 			<h2 class="mb-4 text-5xl font-bold text-white">Our Approach to Success</h2>
@@ -41,7 +41,7 @@
 			</Card.Root>
 			<Card.Root class="border-none bg-white/10 text-white">
 				<Card.Header>
-					<Shapes class="mb-4 h-12 w-12 text-yellow-400" />
+					<Shapes class="mb-4 h-12 w-12 text-brand-gold" />
 					<Card.Title>Interactive Training Sessions</Card.Title>
 				</Card.Header>
 				<Card.Content>
@@ -51,7 +51,7 @@
 			</Card.Root>
 			<Card.Root class="border-none bg-white/10 text-white">
 				<Card.Header>
-					<Cable class="mb-4 h-12 w-12 text-liw-brown" />
+					<Cable class="mb-4 h-12 w-12 text-brand-gold" />
 					<Card.Title>Continuous Support and Guidance</Card.Title>
 				</Card.Header>
 				<Card.Content>
@@ -61,7 +61,7 @@
 			</Card.Root>
 			<Card.Root class="border-none bg-white/10 text-white">
 				<Card.Header>
-					<Globe class="mb-4 h-12 w-12 text-yellow-400" />
+					<Globe class="mb-4 h-12 w-12 text-brand-gold" />
 					<Card.Title>Global Networking Opportunities</Card.Title>
 				</Card.Header>
 				<Card.Content>
@@ -71,7 +71,7 @@
 			</Card.Root>
 			<Card.Root class="border-none bg-white/10 text-white">
 				<Card.Header>
-					<Users class="mb-4 h-12 w-12 text-yellow-400" />
+					<Users class="mb-4 h-12 w-12 text-brand-gold" />
 					<Card.Title>Engaging Symposiums</Card.Title>
 				</Card.Header>
 				<Card.Content>

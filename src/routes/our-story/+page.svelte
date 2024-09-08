@@ -3,6 +3,7 @@
 	import AboutFounders from '$lib/components/sections/about-us/AboutFounders.svelte';
 	import OurJouney from '$lib/components/sections/about-us/OurJouney.svelte';
 	import OurStoryHero from '$lib/components/sections/about-us/OurStoryHero.svelte';
+	import OurTeam from '$lib/components/sections/about-us/OurTeam.svelte';
 </script>
 
 <svelte:head>
@@ -16,14 +17,23 @@
 <OurStoryHero />
 <OurJouney />
 
-<div class="border-l-4 border-brand-gold mx-16 pl-6 my-16">
-    <h3 class="text-2xl font-playfair text-brand-burgundy mb-4">Unlock Your Startup's Hidden Potential</h3>
-    <p class="text-lg font-bricolage text-gray-700 mb-6">What if you could reduce your startup's waste by 30% next quarter—would you let that opportunity pass by?</p>
-    <a href="#" class="text-brand-gold hover:text-brand-burgundy transition duration-300 font-bricolage uppercase tracking-wider">
-      Learn More →
-    </a>
-  </div>
-  <AboutFounders />
+<div class="mx-16 my-16 border-l-4 border-brand-gold pl-6">
+	<h3 class="mb-4 font-playfair text-2xl text-brand-burgundy">
+		Unlock Your Startup's Hidden Potential
+	</h3>
+	<p class="mb-6 font-bricolage text-lg text-gray-700">
+		What if you could reduce your startup's waste by 30% next quarter—would you let that opportunity
+		pass by?
+	</p>
+	<a
+		href="#"
+		class="font-bricolage uppercase tracking-wider text-brand-gold transition duration-300 hover:text-brand-burgundy"
+	>
+		Learn More →
+	</a>
+</div>
+<AboutFounders />
+<!-- <OurTeam /> -->
 
 <section id="full-story" class="bg-white">
 	<div class="container mx-auto px-4">

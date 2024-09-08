@@ -44,14 +44,7 @@
 <Hero />
 <WhoWeAre />
 <KeyBenefits />
-<div class="mt-16 text-center">
-    <h3 class="font-bricolage text-2xl text-brand-burgundy mb-4">
-      Is your career stuck while your peers advance by mastering corporate behavior?
-    </h3>
-    <p class="text-lg text-gray-700">
-      How long can you afford to be left behind in the corporate race?
-    </p>
-  </div>
+
 <OurApproach />
 <div class="bg-brand-gold/20 py-8 text-center">
     <h3 class="font-playfair text-2xl text-brand-burgundy mb-2">
@@ -75,30 +68,6 @@
       Start Your Leadership Journey
     </Button>
   </div> -->
-<OurGoals />
-<section class="bg-brand-gold/20 py-16">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="font-playfair text-3xl text-brand-burgundy mb-4">
-        "Transform Your Startup: Skills that Set You Apart"
-      </h2>
-      <p class="text-lg text-gray-700 mb-8">
-        If others are already reaping the benefits of our programs, why wait? What's the cost of waiting another day?
-      </p>
-      <Button variant="default" class="bg-brand-burgundy hover:bg-brand-burgundy/90 text-white">
-        Enroll Now
-      </Button>
-    </div>
-  </section>
-
-  <Faqs faqs={faqs} />
-
-  <div class="bg-gray-100 p-8 rounded-lg shadow-md my-16">
-    <h3 class="text-2xl font-playfair text-brand-burgundy mb-4">Elevate Your Leadership Potential</h3>
-    <p class="text-lg font-bricolage text-gray-700 mb-6">Are others mastering emotional intelligence while you're struggling to control your reactions? Don't fall behind—this is the skill that could make or break your leadership.</p>
-    <a href="#" class="inline-block bg-brand-burgundy text-white py-2 px-6 rounded-full font-bricolage text-sm uppercase tracking-wider hover:bg-brand-gold transition duration-300">
-      Master Emotional Intelligence
-    </a>
-  </div>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-8 m-4 md:m-8">
     <div class="bg-brand-burgundy text-white p-6 rounded-lg">
       <h3 class="text-xl font-playfair mb-4">For Startups</h3>
@@ -111,4 +80,24 @@
       <a href="#" class="text-brand-burgundy hover:text-white transition duration-300">Advance Your Career →</a>
     </div>
   </div>
+<OurGoals />
+
+<div class="mt-16 text-center">
+    <h3 class="font-bricolage text-2xl text-brand-burgundy mb-4">
+      Is your career stuck while your peers advance by mastering corporate behavior?
+    </h3>
+    <p class="text-lg text-gray-700">
+      How long can you afford to be left behind in the corporate race?
+    </p>
+  </div>
+  <Faqs faqs={faqs} />
+
+  <div class="bg-gray-100 p-8 rounded-lg shadow-md my-16">
+    <h3 class="text-2xl font-playfair text-brand-burgundy mb-4">Elevate Your Leadership Potential</h3>
+    <p class="text-lg font-bricolage text-gray-700 mb-6">Are others mastering emotional intelligence while you're struggling to control your reactions? Don't fall behind—this is the skill that could make or break your leadership.</p>
+    <a href="#" class="inline-block bg-brand-burgundy text-white py-2 px-6 rounded-full font-bricolage text-sm uppercase tracking-wider hover:bg-brand-gold transition duration-300">
+      Master Emotional Intelligence
+    </a>
+  </div>
+  
     

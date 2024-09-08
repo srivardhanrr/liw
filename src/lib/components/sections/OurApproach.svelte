@@ -46,10 +46,10 @@
         </div>
       </div>
       
-      <div class="mt-16 text-center">
+      <!-- <div class="mt-16 text-center">
         <Button variant="default" class="bg-brand-burgundy hover:bg-brand-burgundy/90 text-white">
           Download Pitch Deck
         </Button>
-      </div>
+      </div> -->
     </div>
   </section>
