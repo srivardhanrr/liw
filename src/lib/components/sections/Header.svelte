@@ -49,8 +49,8 @@
 					</DropdownMenu.Group>
 				</DropdownMenu.Content>
 			</DropdownMenu.Root>
-			<a href="/symposium" class="text-foreground transition-colors hover:text-primary">Symposium</a
-			>
+			<a href="/symposium" class="text-foreground transition-colors hover:text-primary">Symposium</a>
+			<a href="/courses" class="text-foreground transition-colors hover:text-primary">Courses</a>
 			<!-- <a href="/cookbooks" class="text-foreground hover:text-primary transition-colors">Cookbooks</a> -->
 			<a href="/contact" class="text-foreground transition-colors hover:text-primary">Contact Us</a>
 		</nav>
@@ -67,6 +67,7 @@
 					<a href="/our-story" class="hover:text-primary">Our Story</a>
 					<a href="/our-experts" class="hover:text-primary">Our Experts</a>
 					<a href="/symposium" class="hover:text-primary">Symposium</a>
+					<a href="/courses" class="hover:text-primary">Courses</a>
 					<a href="/contact" class="hover:text-primary">Contact Us</a>
 				</nav>
 			</Sheet.Content>
@@ -89,7 +90,7 @@
 				</DropdownMenu.Trigger>
 				<DropdownMenu.Content align="end">
 					<DropdownMenu.Item>Instagram</DropdownMenu.Item>
-					<DropdownMenu.Item>Facebook</DropdownMenu.Item>
+					<DropdownMenu.Item>LinkedIn</DropdownMenu.Item>
 					<DropdownMenu.Item>X</DropdownMenu.Item>
 				</DropdownMenu.Content>
 			</DropdownMenu.Root>

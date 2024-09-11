@@ -18,11 +18,11 @@
   });
   </script>
   
-  <section class="bg-white py-24 px-4 sm:px-6 lg:px-8">
+  <section class="bg-white py-12 px-4 sm:px-6 lg:px-8">
     <div class="max-w-7xl mx-auto">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <!-- Text Content -->
-        <div class="space-y-8">
+        <div class="space-y-12">
           <h2 class="font-playfair text-4xl sm:text-5xl text-brand-burgundy">
             Who We Are
           </h2>
@@ -64,11 +64,44 @@
   
         <!-- Image -->
         <div class="overflow-hidden relative :h-auto">
-          <img
-            src="/images/who-we-are.png"
-            alt="Students collaborating with industry professionals"
-            class="object-fit w-full h-full rounded-lg shadow-xl"
-          />
+          <svg
+					class="h-auto w-full"
+					viewBox="0 0 500 500"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"> -->
+          <!-- World map background -->
+          <path d="M50,250 Q125,200 250,250 T450,250" fill="none" stroke="#FCD57E" stroke-width="2" />
+          <path d="M50,275 Q125,225 250,275 T450,275" fill="none" stroke="#FCD57E" stroke-width="2" />
+          <path d="M50,300 Q125,250 250,300 T450,300" fill="none" stroke="#FCD57E" stroke-width="2" />
+        
+          <!-- Central node (hub of innovation) -->
+          <circle cx="250" cy="250" r="60" fill="#76142D" />
+          
+          <!-- Connected nodes (global network) -->
+          <circle cx="150" cy="150" r="30" fill="#E8B654" />
+          <circle cx="350" cy="150" r="30" fill="#E8B654" />
+          <circle cx="150" cy="350" r="30" fill="#E8B654" />
+          <circle cx="350" cy="350" r="30" fill="#E8B654" />
+          
+          <!-- Connection lines -->
+          <line x1="250" y1="250" x2="150" y2="150" stroke="#76142D" stroke-width="4" />
+          <line x1="250" y1="250" x2="350" y2="150" stroke="#76142D" stroke-width="4" />
+          <line x1="250" y1="250" x2="150" y2="350" stroke="#76142D" stroke-width="4" />
+          <line x1="250" y1="250" x2="350" y2="350" stroke="#76142D" stroke-width="4" />
+          
+          <!-- Growth arrows -->
+          <path d="M250,190 L270,170 L250,150 L230,170 Z" fill="white" />
+          <path d="M310,250 L330,230 L350,250 L330,270 Z" fill="white" />
+          
+          <!-- Lightbulb (innovation) -->
+          <path d="M240,240 Q250,220 260,240 L255,260 Q250,265 245,260 Z" fill="white" />
+          <rect x="245" y="260" width="10" height="5" fill="white" />
+        </svg>
+					<!-- <path d="M200 300 L 300 200" stroke="white" stroke-width="4" />
+					<path d="M200 200 L 300 300" stroke="white" stroke-width="4" /> -->
+				<!-- </svg> -->
           <!-- <div class="absolute inset-0 bg-brand-burgundy mix-blend-multiply opacity-20 rounded-lg"></div> -->
           <div class="absolute inset-0 bg-gradient-to-br from-brand-gold/30 to-transparent mix-blend-overlay rounded-lg"></div>
         </div>

@@ -6,57 +6,68 @@
 	import OurGoals from '$lib/components/sections/OurGoals.svelte';
 	import WhoWeAre from '$lib/components/sections/WhoWeAre.svelte';
 	import { Button } from '$lib/components/ui/button';
+	import WhatWeProvide from '$lib/components/sections/WhatWeProvide.svelte';
+	import CourseFinderForm from '$lib/components/sections/CourseFinderForm.svelte';
+  import AudienceSelection from '$lib/components/sections/AudienceSelection.svelte';
+  import GoalsAndMission from '$lib/components/sections/GoalsAndMission.svelte';
 
     const faqs = [
 		{
-			question: 'Who can benefit from your programs?',
+			question: 'Who can attend the symposium?',
 			answer:
-				'Our programs are tailored for a wide range of individuals, including students, startup owners, Teachers corporate employees at all levels, and educators.'
+				'The symposium welcomes students, educators, academic institutions, and professionals keen on exploring key trends like IoT, drone technology, and cybersecurity. Industry experts will participate as speakers and mentors, offering valuable insights.'
 		},
 		{
-			question: 'What makes your courses different from others?',
+			question: 'What are the key themes of the symposium?',
 			answer:
-				'Our courses stand out due to their practical approach, industry-relevant curriculum, and expert instructors with real-world experience.'
+				'This year, the focus is on breakthrough technologies including IoT, drone innovation, and cybersecurity. The event will feature panel discussions, keynote speeches, and workshops, addressing the future of these fields and their global impact.'
 		},
 		{
-			question: 'How do I enroll in a course?',
+			question: 'What value does the symposium offer to industry speakers?',
 			answer:
-				'Enrolling is easy! Simply visit our website, choose your desired course, and follow the registration process. You can also contact our support team for assistance.'
+				'Industry speakers gain the opportunity to share their expertise with future leaders, enhance their brand visibility, and grow their professional network. Participation also facilitates dialogues that shape the future of their industries.'
 		},
 		{
-			question: 'Do you offer both online and offline training?',
+			question: 'What types of sessions are available during the symposium?',
 			answer:
-				'Yes, we offer both online and offline training options to cater to different learning preferences and schedules.'
+				'Sessions include dynamic panel discussions, visionary keynotes, hands-on workshops, and networking events. Each is tailored to provide attendees with actionable knowledge and career-enhancing skills.'
 		},
 		{
-			question: 'What is the MLE℠ title, and how do I earn it?',
+			question: 'How can I become a speaker or panelist at the symposium?',
 			answer:
-				'The MLE℠ (Master Leadership Expert) is our prestigious certification. You can earn it by completing our comprehensive leadership program and passing the final assessment.'
+				'If you\'re an industry expert interested in speaking, visit our speaker application page or contact us at info@leadershipinnovationworld.com to explore opportunities.'
 		},
 		{
-			question: 'How do your symposiums work?',
+			question: 'What networking opportunities are available during the symposium?',
 			answer:
-				"Our symposiums are interactive events featuring expert speakers, workshops, and networking opportunities. They're designed to provide in-depth insights on specific leadership topics."
+				"The symposium provides exclusive networking sessions for students and professionals to connect with industry leaders, offering mentorship, career guidance, and collaboration prospects."
 		}
 	];
 </script>
 
 <Hero />
 <WhoWeAre />
+<WhatWeProvide />
+<CourseFinderForm />
+<AudienceSelection />
+<GoalsAndMission />
 <KeyBenefits />
 
 <OurApproach />
 <div class="bg-brand-gold/20 py-8 text-center">
-    <h3 class="font-playfair text-2xl text-brand-burgundy mb-2">
-      Are you losing out on key opportunities?
-    </h3>
-    <p class="text-lg text-gray-700 mb-4">
-      While others network and influence, are you fading into the background?
-    </p>
-    <Button variant="outline" class="border-brand-burgundy text-brand-burgundy hover:bg-brand-burgundy hover:text-white">
-      Boost Your Social Intelligence Now
-    </Button>
-  </div>
+	<h3 class="mb-2 font-playfair text-2xl text-brand-burgundy">
+		Are you losing out on key opportunities?
+	</h3>
+	<p class="mb-4 text-lg text-gray-700">
+		While others network and influence, are you fading into the background?
+	</p>
+	<Button
+		variant="outline"
+		class="border-brand-burgundy text-brand-burgundy hover:bg-brand-burgundy hover:text-white"
+	>
+		Boost Your Social Intelligence Now
+	</Button>
+</div>
 <!-- <div class="hidden lg:block fixed bottom-4 right-4 bg-white p-6 rounded-lg shadow-xl max-w-sm">
     <h3 class="font-bricolage text-xl text-brand-burgundy mb-2">
       Why are others leading themselves to success while you wait for direction?
@@ -68,36 +79,48 @@
       Start Your Leadership Journey
     </Button>
   </div> -->
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 m-4 md:m-8">
-    <div class="bg-brand-burgundy text-white p-6 rounded-lg">
-      <h3 class="text-xl font-playfair mb-4">For Startups</h3>
-      <p class="font-bricolage mb-4">How much longer can you afford to run at less than full efficiency while others are optimizing their processes?</p>
-      <a href="#" class="text-brand-gold hover:text-white transition duration-300">Optimize Now →</a>
-    </div>
-    <div class="bg-brand-gold text-brand-dark p-6 rounded-lg">
-      <h3 class="text-xl font-playfair mb-4">For Students</h3>
-      <p class="font-bricolage mb-4">Is your career stuck while your peers advance by mastering corporate behavior? How long can you afford to be left behind in the corporate race?</p>
-      <a href="#" class="text-brand-burgundy hover:text-white transition duration-300">Advance Your Career →</a>
-    </div>
-  </div>
+<div class="m-4 grid grid-cols-1 gap-8 md:m-8 md:grid-cols-2">
+	<div class="rounded-lg bg-brand-burgundy p-6 text-white">
+		<h3 class="mb-4 font-playfair text-xl">For Startups</h3>
+		<p class="mb-4 font-bricolage">
+			How much longer can you afford to run at less than full efficiency while others are optimizing
+			their processes?
+		</p>
+		<a href="#" class="text-brand-gold transition duration-300 hover:text-white">Optimize Now →</a>
+	</div>
+	<div class="text-brand-dark rounded-lg bg-brand-gold p-6">
+		<h3 class="mb-4 font-playfair text-xl">For Students</h3>
+		<p class="mb-4 font-bricolage">
+			Is your career stuck while your peers advance by mastering corporate behavior? How long can
+			you afford to be left behind in the corporate race?
+		</p>
+		<a href="#" class="text-brand-burgundy transition duration-300 hover:text-white"
+			>Advance Your Career →</a
+		>
+	</div>
+</div>
 <OurGoals />
 
 <div class="mt-16 text-center">
-    <h3 class="font-bricolage text-2xl text-brand-burgundy mb-4">
-      Is your career stuck while your peers advance by mastering corporate behavior?
-    </h3>
-    <p class="text-lg text-gray-700">
-      How long can you afford to be left behind in the corporate race?
-    </p>
-  </div>
-  <Faqs faqs={faqs} />
+	<h3 class="mb-4 font-bricolage text-2xl text-brand-burgundy">
+		Is your career stuck while your peers advance by mastering corporate behavior?
+	</h3>
+	<p class="text-lg text-gray-700">
+		How long can you afford to be left behind in the corporate race?
+	</p>
+</div>
+<Faqs {faqs} />
 
-  <div class="bg-gray-100 p-8 rounded-lg shadow-md my-16">
-    <h3 class="text-2xl font-playfair text-brand-burgundy mb-4">Elevate Your Leadership Potential</h3>
-    <p class="text-lg font-bricolage text-gray-700 mb-6">Are others mastering emotional intelligence while you're struggling to control your reactions? Don't fall behind—this is the skill that could make or break your leadership.</p>
-    <a href="#" class="inline-block bg-brand-burgundy text-white py-2 px-6 rounded-full font-bricolage text-sm uppercase tracking-wider hover:bg-brand-gold transition duration-300">
-      Master Emotional Intelligence
-    </a>
-  </div>
-  
-    
+<div class="my-16 rounded-lg bg-gray-100 p-8 shadow-md">
+	<h3 class="mb-4 font-playfair text-2xl text-brand-burgundy">Elevate Your Leadership Potential</h3>
+	<p class="mb-6 font-bricolage text-lg text-gray-700">
+		Are others mastering emotional intelligence while you're struggling to control your reactions?
+		Don't fall behind—this is the skill that could make or break your leadership.
+	</p>
+	<a
+		href="#"
+		class="inline-block rounded-full bg-brand-burgundy px-6 py-2 font-bricolage text-sm uppercase tracking-wider text-white transition duration-300 hover:bg-brand-gold"
+	>
+		Master Emotional Intelligence
+	</a>
+</div>
