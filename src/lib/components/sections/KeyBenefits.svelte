@@ -15,7 +15,9 @@
 			<p class="mb-8 text-xl text-white/80">
 				Empowering leaders to shape the future of innovation.
 			</p>
-			<Button variant="secondary" size="lg" class="font-semibold">Discover Our Programs</Button>
+			<a href="/courses">
+				<Button variant="secondary" size="lg" class="font-semibold">Discover Our Programs</Button>
+			</a>
 		</section>
 
 		<section class="mb-16 grid grid-cols-1 gap-8 md:grid-cols-3">
@@ -80,12 +82,12 @@
 				</Card.Content>
 			</Card.Root>
 		</section>
-		<section class="text-center">
+		<!-- <section class="text-center">
 			<h3 class="mb-4 text-3xl font-bold text-white">Ready to Lead the Future?</h3>
 			<p class="mb-8 text-xl text-white/80">
 				Join our exclusive network of innovative leaders today.
 			</p>
 			<Button variant="secondary" size="lg" class="font-semibold">Apply Now</Button>
-		</section>
+		</section> -->
 	</main>
 </div>

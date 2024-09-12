@@ -65,20 +65,22 @@
         </div>
       </div>
   
-      <div class="bg-brand-burgundy text-white p-8 rounded-lg shadow-xl mb-16">
+      <!-- <div class="bg-brand-burgundy text-white p-8 rounded-lg shadow-xl mb-16">
         <h3 class="font-bricolage text-2xl mb-4 text-center">Ready to Unlock Your Startup's Hidden Potential?</h3>
         <div class="h-16 flex items-center justify-center">
           {#key currentFOMOIndex}
             <p transition:fade class="text-center text-lg">{fomoQuestions[currentFOMOIndex]}</p>
           {/key}
         </div>
-      </div>
+      </div> -->
   
       <div class="text-center">
         <h3 class="font-playfair text-3xl text-brand-burgundy mb-6">Transform Your Startup: Skills that Set You Apart</h3>
+        <a href="/courses/startup">
         <Button variant="default" class="bg-brand-burgundy hover:bg-brand-burgundy/90 text-white text-lg px-8 py-3">
           Start Your Journey
         </Button>
+      </a>
       </div>
     </div>
   </section>

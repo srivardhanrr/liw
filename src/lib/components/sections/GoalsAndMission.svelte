@@ -9,10 +9,6 @@
 		'Promote global perspectives in business education'
 	];
 
-	function handleSeeVision() {
-		console.log('Navigate to vision page');
-		// Here you would typically navigate to a detailed vision page
-	}
 </script>
 
 <section class="relative overflow-hidden bg-gradient-to-br from-white to-brand-gold/10 py-24">
@@ -74,12 +70,13 @@
 				</div>
 
 				<div in:fade={{ duration: 1000, delay: 1400 }}>
+					<a href="/our-story">
 					<button
-						on:click={handleSeeVision}
 						class="hover:bg-brand-amber hover:text-brand-charcoal transform rounded-full bg-brand-burgundy px-8 py-3 font-bricolage text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
 					>
 						See Our Vision
-					</button>
+						</button>
+					</a>
 				</div>
 			</div>
 

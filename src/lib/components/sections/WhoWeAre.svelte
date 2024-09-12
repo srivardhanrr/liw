@@ -57,9 +57,11 @@
               </div>
             </div>
           </div>
+          <a href="/our-story">
           <Button variant="outline" class="mt-8 border-brand-burgundy text-brand-burgundy hover:bg-brand-burgundy hover:text-white transition-colors duration-300">
             Learn More About Us
           </Button>
+        </a>
         </div>
   
         <!-- Image -->

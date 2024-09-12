@@ -48,13 +48,43 @@
 <Hero />
 <WhoWeAre />
 <WhatWeProvide />
+<div class="mt-16 text-center">
+	<h3 class="mb-4 font-bricolage text-2xl text-brand-burgundy">
+		Is your career stuck while your peers advance by mastering corporate behavior?
+	</h3>
+	<p class="text-lg text-gray-700">
+		How long can you afford to be left behind in the corporate race?
+	</p>
+</div>
 <CourseFinderForm />
+<OurApproach />
+<div class="m-4 grid grid-cols-1 gap-8 md:m-8 md:grid-cols-2">
+	<div class="rounded-lg bg-brand-burgundy p-6 text-white">
+		<h3 class="mb-4 font-playfair text-xl">For Startups</h3>
+		<p class="mb-4 font-bricolage">
+			How much longer can you afford to run at less than full efficiency while others are optimizing
+			their processes?
+		</p>
+		<a href="/courses/startup" class="text-brand-gold transition duration-300 hover:text-white">Optimize Now →</a>
+	</div>
+	<div class="text-brand-dark rounded-lg bg-brand-gold p-6">
+		<h3 class="mb-4 font-playfair text-xl">For Students</h3>
+		<p class="mb-4 font-bricolage">
+			Is your career stuck while your peers advance by mastering corporate behavior? How long can
+			you afford to be left behind in the corporate race?
+		</p>
+		<a href="/courses/student" class="text-brand-burgundy transition duration-300 hover:text-white"
+			>Advance Your Career →</a
+		>
+	</div>
+</div>
+
 <AudienceSelection />
 <GoalsAndMission />
 <KeyBenefits />
 
-<OurApproach />
-<div class="bg-brand-gold/20 py-8 text-center">
+
+<!-- <div class="bg-brand-gold/20 py-8 text-center">
 	<h3 class="mb-2 font-playfair text-2xl text-brand-burgundy">
 		Are you losing out on key opportunities?
 	</h3>
@@ -67,7 +97,7 @@
 	>
 		Boost Your Social Intelligence Now
 	</Button>
-</div>
+</div> -->
 <!-- <div class="hidden lg:block fixed bottom-4 right-4 bg-white p-6 rounded-lg shadow-xl max-w-sm">
     <h3 class="font-bricolage text-xl text-brand-burgundy mb-2">
       Why are others leading themselves to success while you wait for direction?
@@ -79,48 +109,9 @@
       Start Your Leadership Journey
     </Button>
   </div> -->
-<div class="m-4 grid grid-cols-1 gap-8 md:m-8 md:grid-cols-2">
-	<div class="rounded-lg bg-brand-burgundy p-6 text-white">
-		<h3 class="mb-4 font-playfair text-xl">For Startups</h3>
-		<p class="mb-4 font-bricolage">
-			How much longer can you afford to run at less than full efficiency while others are optimizing
-			their processes?
-		</p>
-		<a href="#" class="text-brand-gold transition duration-300 hover:text-white">Optimize Now →</a>
-	</div>
-	<div class="text-brand-dark rounded-lg bg-brand-gold p-6">
-		<h3 class="mb-4 font-playfair text-xl">For Students</h3>
-		<p class="mb-4 font-bricolage">
-			Is your career stuck while your peers advance by mastering corporate behavior? How long can
-			you afford to be left behind in the corporate race?
-		</p>
-		<a href="#" class="text-brand-burgundy transition duration-300 hover:text-white"
-			>Advance Your Career →</a
-		>
-	</div>
-</div>
+
 <OurGoals />
 
-<div class="mt-16 text-center">
-	<h3 class="mb-4 font-bricolage text-2xl text-brand-burgundy">
-		Is your career stuck while your peers advance by mastering corporate behavior?
-	</h3>
-	<p class="text-lg text-gray-700">
-		How long can you afford to be left behind in the corporate race?
-	</p>
-</div>
+
 <Faqs {faqs} />
 
-<div class="my-16 rounded-lg bg-gray-100 p-8 shadow-md">
-	<h3 class="mb-4 font-playfair text-2xl text-brand-burgundy">Elevate Your Leadership Potential</h3>
-	<p class="mb-6 font-bricolage text-lg text-gray-700">
-		Are others mastering emotional intelligence while you're struggling to control your reactions?
-		Don't fall behind—this is the skill that could make or break your leadership.
-	</p>
-	<a
-		href="#"
-		class="inline-block rounded-full bg-brand-burgundy px-6 py-2 font-bricolage text-sm uppercase tracking-wider text-white transition duration-300 hover:bg-brand-gold"
-	>
-		Master Emotional Intelligence
-	</a>
-</div>
