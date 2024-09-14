@@ -5,6 +5,7 @@
 	import WhyHostSection from '$lib/components/sections/symposium/WhyHostSection.svelte';
     import NewsletterSignup from '$lib/components/sections/symposium/NewsletterSignup.svelte';
 	import Faqs from '$lib/components/sections/Faqs.svelte';
+    import { Presentation, Users, TrendingUp } from 'lucide-svelte'
 	import { Button } from '$lib/components/ui/button';
 
     const faqs = [
@@ -48,6 +49,26 @@
   <main>
     <SymposiumHero />
     <WhyHostSection />
+    <section class="container mx-auto px-4 py-16 bg-brand-gold bg-opacity-10">
+      <h2 class="font-playfair text-3xl md:text-4xl text-center font-bold mb-8 text-brand-burgundy">Why Host a Symposium at Your Institution?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="flex flex-col items-center text-center p-6 bg-white shadow-lg rounded-lg">
+          <Presentation class="w-16 h-16 text-brand-burgundy mb-4" />
+          <h3 class="font-bricolage text-xl font-bold mb-2">Cutting-edge Insights</h3>
+          <p class="font-inter">Access to the latest industry trends and academic research</p>
+        </div>
+        <div class="flex flex-col items-center text-center p-6 bg-white shadow-lg rounded-lg">
+          <Users class="w-16 h-16 text-brand-burgundy mb-4" />
+          <h3 class="font-bricolage text-xl font-bold mb-2">Networking Opportunities</h3>
+          <p class="font-inter">Connect with industry leaders and innovators</p>
+        </div>
+        <div class="flex flex-col items-center text-center p-6 bg-white shadow-lg rounded-lg">
+          <TrendingUp class="w-16 h-16 text-brand-burgundy mb-4" />
+          <h3 class="font-bricolage text-xl font-bold mb-2">Institutional Growth</h3>
+          <p class="font-inter">Enhance your institution's reputation and attract top talent</p>
+        </div>
+      </div>
+    </section>
     <section class="bg-brand-gold/20 py-16">
         <div class="max-w-4xl mx-auto text-center">
           <h2 class="font-playfair text-3xl text-brand-burgundy mb-4">
@@ -71,7 +92,7 @@
             pass by?
         </p>
         <a
-            href="#"
+            href="/contact"
             class="font-bricolage uppercase tracking-wider text-brand-gold transition duration-300 hover:text-brand-burgundy"
         >
             Learn More →

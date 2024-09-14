@@ -20,18 +20,18 @@
           <img src="/images/logo/liw-logo.png" alt="Leadership Innovation World" class="h-12" />
           <p class="text-sm text-brand-burgundy">Empowering leaders to shape the future of innovation.</p>
           <div class="flex space-x-4">
-            <a href="#" class="text-brand-burgundy hover:text-brand-gold transition-colors">
+            <!-- <a href="#" class="text-brand-burgundy hover:text-brand-gold transition-colors">
               <Facebook size={20} />
-            </a>
-            <a href="#" class="text-brand-burgundy hover:text-brand-gold transition-colors">
+            </a> -->
+            <a href="https://x.com/liw_symposium" class="text-brand-burgundy hover:text-brand-gold transition-colors">
               <Twitter size={20} />
             </a>
-            <a href="#" class="text-brand-burgundy hover:text-brand-gold transition-colors">
+            <a href="https://www.instagram.com/leadershipinnovationworld" class="text-brand-burgundy hover:text-brand-gold transition-colors">
               <Instagram size={20} />
             </a>
-            <a href="#" class="text-brand-burgundy hover:text-brand-gold transition-colors">
+            <!-- <a href="#" class="text-brand-burgundy hover:text-brand-gold transition-colors">
               <Linkedin size={20} />
-            </a>
+            </a> -->
           </div>
         </div>
         
@@ -48,10 +48,10 @@
         <div>
           <h3 class="text-lg font-semibold mb-4">Resources</h3>
           <ul class="space-y-2">
-            <li><a href="/blog" class="text-brand-burgundy hover:text-brand-gold transition-colors">Blog</a></li>
-            <li><a href="/case-studies" class="text-brand-burgundy hover:text-brand-gold transition-colors">Case Studies</a></li>
-            <li><a href="/whitepapers" class="text-brand-burgundy hover:text-brand-gold transition-colors">Whitepapers</a></li>
-            <li><a href="/faq" class="text-brand-burgundy hover:text-brand-gold transition-colors">FAQ</a></li>
+            <li><a href="/" class="text-brand-burgundy hover:text-brand-gold transition-colors">Blog</a></li>
+            <!-- <li><a href="/case-studies" class="text-brand-burgundy hover:text-brand-gold transition-colors">Case Studies</a></li> -->
+            <!-- <li><a href="/whitepapers" class="text-brand-burgundy hover:text-brand-gold transition-colors">Whitepapers</a></li> -->
+            <li><a href="/" class="text-brand-burgundy hover:text-brand-gold transition-colors">FAQ</a></li>
           </ul>
         </div>
         

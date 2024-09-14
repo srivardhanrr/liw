@@ -1,7 +1,7 @@
 import { error } from '@sveltejs/kit';
 
-const founders_details = {
-    'jeevitha-p-raju': {
+const founders_details = [
+    {
         name: 'Jeevitha P. Raju',
         title: 'Founder of Leadership Innovation World',
         image: '/images/jeevitha.png',
@@ -12,8 +12,10 @@ const founders_details = {
             'Contributed to educational policies in Bengaluru South.',
             'Worked in corporate training and educational leadership.'
         ],
+        instagram: 'https://www.instagram.com/jeeviiii',
+        linkedin: 'https://www.linkedin.com/in/jeevitha-p-raju-79857610b',
     },
-    'rohit-rammurthy': {
+    {
         name: 'Rohit Rammurthy',
         title: 'Head of Strategy and Business Development at Arvind Industries',
         image: '/images/rohit.png',
@@ -24,8 +26,10 @@ const founders_details = {
             'Delivered impactful sessions at Harvard University and IIM Bangalore.',
             'Recognized as Young Professor of the Year 2021 and Young Education Leader of the Year 2023.'
         ],
+        instagram: 'https://www.instagram.com/rohitrammurthy',
+        linkedin: 'https://www.linkedin.com/in/rohit-rammurthy/',
     }
-};
+];
 
 export function load({ params }: { params: { slug: string } }) {
     const founder = founders_details[params.slug as keyof typeof founders_details];

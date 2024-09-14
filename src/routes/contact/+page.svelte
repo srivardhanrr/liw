@@ -56,24 +56,24 @@
             <ul class="space-y-4">
               <li class="flex items-center">
                 <span class="mr-3">📞</span>
-                +123 456 7890
+                +91 74066 59377
               </li>
               <li class="flex items-center">
                 <span class="mr-3">✉️</span>
-                contact@liw.com
+                info@leadershipinnovationworld.com
               </li>
               <li class="flex items-center">
                 <span class="mr-3">📍</span>
-                123 Leadership St, Innovation City
+                Bengaluru, India
               </li>
             </ul>
           </div>
           <div class="mt-12">
             <h3 class="text-xl font-playfair mb-4">Connect With Us</h3>
             <div class="flex space-x-4">
-              <a href="#" class="text-white hover:text-brand-dark transition duration-300">LinkedIn</a>
-              <a href="#" class="text-white hover:text-brand-dark transition duration-300">Twitter</a>
-              <a href="#" class="text-white hover:text-brand-dark transition duration-300">Facebook</a>
+              <!-- <a href="#" class="text-white hover:text-brand-dark transition duration-300">LinkedIn</a> -->
+              <a href="https://x.com/liw_symposium" class="text-white hover:text-brand-dark transition duration-300">Twitter</a>
+              <a href="https://www.instagram.com/leadershipinnovationworld" class="text-white hover:text-brand-dark transition duration-300">Instagram</a>
             </div>
           </div>
         </div>

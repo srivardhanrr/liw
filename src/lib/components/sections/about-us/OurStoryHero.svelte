@@ -10,7 +10,7 @@
                 We merge academic excellence with industry insights, empowering the 
                 next generation of leaders.
             </p>
-            <a href="#" class="inline-block bg-brand-burgundy text-white py-3 px-8 rounded-sm hover:bg-brand-gold hover:text-brand-dark transition duration-300 ease-in-out font-bricolage text-sm uppercase tracking-wider">
+            <a href="/our-story#journey" class="inline-block bg-brand-burgundy text-white py-3 px-8 rounded-sm hover:bg-brand-gold hover:text-brand-dark transition duration-300 ease-in-out font-bricolage text-sm uppercase tracking-wider">
                 Explore Our Journey
             </a>
         </div>

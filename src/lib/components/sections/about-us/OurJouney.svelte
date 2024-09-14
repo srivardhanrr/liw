@@ -23,7 +23,7 @@
     ];
   </script>
   
-  <section class="py-24 bg-white overflow-hidden">
+  <section id="journey" class="py-24 bg-white overflow-hidden">
     <div class="container mx-auto px-4">
       <h2 class="text-4xl md:text-5xl font-playfair text-center mb-16 text-brand-burgundy">Our Journey Unfolds</h2>
       
@@ -47,7 +47,7 @@
       
       <div class="text-center mt-16">
         <p class="text-gray-600 mb-6 italic md:hidden">Scroll horizontally to explore our journey</p>
-        <a href="#" class="inline-block bg-brand-burgundy text-white py-3 px-8 rounded-full shadow-md hover:bg-brand-gold transition duration-300 font-bricolage text-sm uppercase tracking-wider">
+        <a href="/contact" class="inline-block bg-brand-burgundy text-white py-3 px-8 rounded-full shadow-md hover:bg-brand-gold transition duration-300 font-bricolage text-sm uppercase tracking-wider">
           Join Our Vision
         </a>
       </div>
