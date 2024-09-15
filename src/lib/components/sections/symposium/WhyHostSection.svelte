@@ -50,25 +50,27 @@
       </div>
       <div class="md:w-1/2">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-          <!-- Background -->
-          <rect width="400" height="300" fill="#FFF" />
+          <!-- Main building structure -->
+          <path d="M50,250 L100,80 L300,80 L350,250 Z" fill="#76142D" />
           
-          <!-- Stylized campus building -->
-          <rect x="50" y="100" width="300" height="150" fill="#76142D" />
-          <rect x="80" y="130" width="60" height="90" fill="#FCD57E" />
-          <rect x="170" y="130" width="60" height="90" fill="#FCD57E" />
-          <rect x="260" y="130" width="60" height="90" fill="#FCD57E" />
+          <!-- Glass facade -->
+          <path d="M110,100 L290,100 L330,240 L70,240 Z" fill="#FCD57E" fill-opacity="0.3" />
           
-          <!-- Roof -->
-          <polygon points="50,100 200,30 350,100" fill="#E8B654" />
+          <!-- Horizontal lines representing floors -->
+          <line x1="60" y1="140" x2="340" y2="140" stroke="#E8B654" stroke-width="2" />
+          <line x1="70" y1="190" x2="330" y2="190" stroke="#E8B654" stroke-width="2" />
           
-          <!-- Growth arrow -->
-          <path d="M200,250 L200,70 L230,100 L200,70 L170,100" fill="none" stroke="#111716" stroke-width="8" />
+          <!-- Minimalist entrance -->
+          <rect x="185" y="200" width="30" height="50" fill="#E8B654" />
           
-          <!-- Stars representing innovation -->
-          <polygon points="100,40 105,50 115,50 107,60 110,70 100,65 90,70 93,60 85,50 95,50" fill="#FCD57E" />
-          <polygon points="300,40 305,50 315,50 307,60 310,70 300,65 290,70 293,60 285,50 295,50" fill="#FCD57E" />
-          <polygon points="200,10 205,20 215,20 207,30 210,40 200,35 190,40 193,30 185,20 195,20" fill="#FCD57E" />
+          <!-- Sleek roof accent -->
+          <path d="M100,80 L200,50 L300,80" fill="none" stroke="#E8B654" stroke-width="4" />
+          
+          <!-- Abstract growth symbol -->
+          <path d="M200,30 L200,10 M190,20 L200,10 L210,20" fill="none" stroke="#FCD57E" stroke-width="2" />
+          
+          <!-- Refined text -->
+          <text x="200" y="280" font-family="Arial, sans-serif" font-size="14" font-weight="300" text-anchor="middle" fill="#76142D" letter-spacing="2">ACADEMY OF EXCELLENCE</text>
         </svg>
         <!-- <img src="https://placehold.co/600x400" alt="Leadership symposium in action" class="w-full h-auto rounded-lg shadow-lg" /> -->
       </div>

@@ -9,37 +9,31 @@
 	import { Button } from '$lib/components/ui/button';
 
     const faqs = [
-		{
-			question: 'Who can benefit from your programs?',
-			answer:
-				'Our programs are tailored for a wide range of individuals, including students, startup owners, Teachers corporate employees at all levels, and educators.'
-		},
-		{
-			question: 'What makes your courses different from others?',
-			answer:
-				'Our courses stand out due to their practical approach, industry-relevant curriculum, and expert instructors with real-world experience.'
-		},
-		{
-			question: 'How do I enroll in a course?',
-			answer:
-				'Enrolling is easy! Simply visit our website, choose your desired course, and follow the registration process. You can also contact our support team for assistance.'
-		},
-		{
-			question: 'Do you offer both online and offline training?',
-			answer:
-				'Yes, we offer both online and offline training options to cater to different learning preferences and schedules.'
-		},
-		{
-			question: 'What is the MLE℠ title, and how do I earn it?',
-			answer:
-				'The MLE℠ (Master Leadership Expert) is our prestigious certification. You can earn it by completing our comprehensive leadership program and passing the final assessment.'
-		},
-		{
-			question: 'How do your symposiums work?',
-			answer:
-				"Our symposiums are interactive events featuring expert speakers, workshops, and networking opportunities. They're designed to provide in-depth insights on specific leadership topics."
-		}
-	];
+  {
+    "question": "Who can attend the symposium?",
+    "answer": "The symposium welcomes students, educators, academic institutions, and professionals keen on exploring key trends like IoT, drone technology, and cybersecurity. Industry experts will participate as speakers and mentors, offering valuable insights."
+  },
+  {
+    "question": "What are the key themes of the symposium?",
+    "answer": "This year, the focus is on breakthrough technologies including IoT, drone innovation, and cybersecurity. The event will feature panel discussions, keynote speeches, and workshops, addressing the future of these fields and their global impact."
+  },
+  {
+    "question": "What value does the symposium offer to industry speakers?",
+    "answer": "Industry speakers gain the opportunity to share their expertise with future leaders, enhance their brand visibility, and grow their professional network. Participation also facilitates dialogues that shape the future of their industries."
+  },
+  {
+    "question": "What types of sessions are available during the symposium?",
+    "answer": "Sessions include dynamic panel discussions, visionary keynotes, hands-on workshops, and networking events. Each is tailored to provide attendees with actionable knowledge and career-enhancing skills."
+  },
+  {
+    "question": "How can I become a speaker or panelist at the symposium?",
+    "answer": "If you're an industry expert interested in speaking, visit our speaker application page or contact us at info@leadershipinnovationworld.com to explore opportunities."
+  },
+  {
+    "question": "What networking opportunities are available during the symposium?",
+    "answer": "The symposium provides exclusive networking sessions for students and professionals to connect with industry leaders, offering mentorship, career guidance, and collaboration prospects."
+  }
+];
   </script>
   
   <svelte:head>
@@ -77,9 +71,11 @@
           <p class="text-lg text-gray-700 mb-8">
             If others are already reaping the benefits of our programs, why wait? What's the cost of waiting another day?
           </p>
+          <a href="/courses">
           <Button variant="default" class="bg-brand-burgundy hover:bg-brand-burgundy/90 text-white">
             Enroll Now
           </Button>
+        </a>
         </div>
       </section>
     <KeyBenefitsStudents />

@@ -4,7 +4,7 @@ const founders_details = [
     {
         name: 'Jeevitha P. Raju',
         title: 'Founder of Leadership Innovation World',
-        image: '/images/jeevitha.png',
+        image: '/images/jeevithaNew.jpg',
         background: 'Jeevitha P. Raju is an experienced educator and communication coach. With over a decade of experience, she has empowered over half a million individuals across India, focusing on honing soft skills and preparing students for success in the global environment.',
         achievements: [
             'Educated in communication at prestigious institutions like Leaders Excellence and Harvard Square.',
