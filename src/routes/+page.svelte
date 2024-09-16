@@ -10,6 +10,7 @@
 	import CourseFinderForm from '$lib/components/sections/CourseFinderForm.svelte';
   import AudienceSelection from '$lib/components/sections/AudienceSelection.svelte';
   import GoalsAndMission from '$lib/components/sections/GoalsAndMission.svelte';
+	import RecentPosts from '$lib/components/sections/blogs/RecentPosts.svelte';
 
     const faqs = [
 		{
@@ -112,6 +113,7 @@
 
 <OurGoals />
 
+<RecentPosts />
 
 <Faqs {faqs} />
 

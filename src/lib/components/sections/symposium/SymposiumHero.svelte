@@ -14,7 +14,7 @@
                     Symposium <span class="text-brand-black">Overview</span>
                 </h1>
                 <p class="font-inter text-sm md:text-lg text-brand-dark leading-relaxed">
-                    The Leadership Innovation World Symposium is a unique event tailored for students nearing graduation or early in their careers. This gathering unites industry leaders, experts, and thought influencers from various sectors.
+                    The Leadership Innovation World Symposium is a unique event tailored for students early in their careers. This gathering unites industry leaders, experts, and thought influencers from various sectors.
                 </p>
                 <p class="font-inter text-sm md:text-lg text-brand-dark leading-relaxed">
                     The symposium features dynamic panel discussions and inspiring keynote sessions that provide students with invaluable insights into skill mastery, career development, and emerging job market trends.

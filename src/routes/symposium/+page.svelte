@@ -7,6 +7,7 @@
 	import Faqs from '$lib/components/sections/Faqs.svelte';
     import { Presentation, Users, TrendingUp } from 'lucide-svelte'
 	import { Button } from '$lib/components/ui/button';
+	import SpeakerCallout from '$lib/components/sections/symposium/SpeakerCallout.svelte';
 
     const faqs = [
   {
@@ -43,6 +44,8 @@
   <main>
     <SymposiumHero />
     <WhyHostSection />
+    <SpeakerCallout />
+
     <section class="container mx-auto px-4 py-16 bg-brand-gold bg-opacity-10">
       <h2 class="font-playfair text-3xl md:text-4xl text-center font-bold mb-8 text-brand-burgundy">Why Host a Symposium at Your Institution?</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -79,7 +82,7 @@
         </div>
       </section>
     <KeyBenefitsStudents />
-    <div class="md:mx-16 md:my-16 m-8 border-l-4 border-brand-gold pl-6">
+    <!-- <div class="md:mx-16 md:my-16 m-8 border-l-4 border-brand-gold pl-6">
         <h3 class="mb-4 font-playfair text-2xl text-brand-burgundy">
             Unlock Your Startup's Hidden Potential
         </h3>
@@ -93,7 +96,7 @@
         >
             Learn More →
         </a>
-    </div>
+    </div> -->
     <SymposiumApplicationForm />
     <Faqs faqs={faqs} />
     <NewsletterSignup />
