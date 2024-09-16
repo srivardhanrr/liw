@@ -8,40 +8,45 @@
 	import { Button } from '$lib/components/ui/button';
 	import WhatWeProvide from '$lib/components/sections/WhatWeProvide.svelte';
 	import CourseFinderForm from '$lib/components/sections/CourseFinderForm.svelte';
-  import AudienceSelection from '$lib/components/sections/AudienceSelection.svelte';
-  import GoalsAndMission from '$lib/components/sections/GoalsAndMission.svelte';
+	import AudienceSelection from '$lib/components/sections/AudienceSelection.svelte';
+	import GoalsAndMission from '$lib/components/sections/GoalsAndMission.svelte';
 	import RecentPosts from '$lib/components/sections/blogs/RecentPosts.svelte';
 
-    const faqs = [
+	const faqs = [
 		{
-			question: 'Who can attend the symposium?',
+			question: 'Who can benefit from your programs?',
 			answer:
-				'The symposium welcomes students, educators, academic institutions, and professionals keen on exploring key trends like IoT, drone technology, and cybersecurity. Industry experts will participate as speakers and mentors, offering valuable insights.'
+				'Our programs are tailored for a wide range of individuals, including students, startup owners, teachers, corporate employees at all levels, and educators.'
 		},
 		{
-			question: 'What are the key themes of the symposium?',
+			question: 'What makes your courses different from others?',
 			answer:
-				'This year, the focus is on breakthrough technologies including IoT, drone innovation, and cybersecurity. The event will feature panel discussions, keynote speeches, and workshops, addressing the future of these fields and their global impact.'
+				"Our courses are unique because they go beyond traditional learning. We emphasize experiential training, combining theoretical knowledge with practical applications. This approach ensures that you don't just earn a certificate—you gain real-world skills."
 		},
 		{
-			question: 'What value does the symposium offer to industry speakers?',
+			question: 'How do I enroll in a course?',
 			answer:
-				'Industry speakers gain the opportunity to share their expertise with future leaders, enhance their brand visibility, and grow their professional network. Participation also facilitates dialogues that shape the future of their industries.'
+				'To enroll in a course, please get in touch with us via email at your-email@domain.com. Our team will guide you through the enrollment process and answer any questions you may have.'
 		},
 		{
-			question: 'What types of sessions are available during the symposium?',
+			question: 'Do you offer both online and offline training?',
 			answer:
-				'Sessions include dynamic panel discussions, visionary keynotes, hands-on workshops, and networking events. Each is tailored to provide attendees with actionable knowledge and career-enhancing skills.'
+				'Yes, we offer both online and offline training sessions to accommodate different learning preferences. Our online courses provide flexibility, while our offline workshops offer hands-on, interactive experiences.'
 		},
 		{
-			question: 'How can I become a speaker or panelist at the symposium?',
+			question: 'What is the MLE℠ title, and how do I earn it?',
 			answer:
-				'If you\'re an industry expert interested in speaking, visit our speaker application page or contact us at info@leadershipinnovationworld.com to explore opportunities.'
+				'MLE℠ stands for Member of Leaders Excellence, a recognized title that signifies your commitment to excellence in leadership. You earn this title by completing our certification programs and becoming part of our exclusive community, which is supported by academics from renowned institutions like Harvard and Stanford.'
 		},
 		{
-			question: 'What networking opportunities are available during the symposium?',
+			question: 'How do your symposiums work?',
 			answer:
-				"The symposium provides exclusive networking sessions for students and professionals to connect with industry leaders, offering mentorship, career guidance, and collaboration prospects."
+				'Our symposiums are designed to connect students and professionals with industry leaders through interactive sessions. These events provide valuable insights, real-world advice, and opportunities to engage directly with experts in your field.'
+		},
+		{
+			question: 'What is AACSB - Association to Advance Collegiate Schools of Business?',
+			answer:
+				'AACSB International is the gold standard of business education accreditation, awarded to only the top 5% of business schools worldwide. This prestigious accreditation ensures that the programs meet the highest standards in quality, credibility, and global recognition. Being part of an AACSB-accredited network gives you a competitive edge, enhanced career opportunities, and access to an elite professional community.'
 		}
 	];
 </script>
@@ -66,7 +71,9 @@
 			How much longer can you afford to run at less than full efficiency while others are optimizing
 			their processes?
 		</p>
-		<a href="/courses/startup" class="text-brand-gold transition duration-300 hover:text-white">Optimize Now →</a>
+		<a href="/courses/startup" class="text-brand-gold transition duration-300 hover:text-white"
+			>Optimize Now →</a
+		>
 	</div>
 	<div class="text-brand-dark rounded-lg bg-brand-gold p-6">
 		<h3 class="mb-4 font-playfair text-xl">For Students</h3>
@@ -83,7 +90,6 @@
 <AudienceSelection />
 <GoalsAndMission />
 <KeyBenefits />
-
 
 <!-- <div class="bg-brand-gold/20 py-8 text-center">
 	<h3 class="mb-2 font-playfair text-2xl text-brand-burgundy">
@@ -116,4 +122,3 @@
 <RecentPosts />
 
 <Faqs {faqs} />
-
