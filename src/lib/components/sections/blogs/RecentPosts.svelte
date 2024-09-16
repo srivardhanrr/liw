@@ -16,27 +16,27 @@
     // export let posts;
 
     const recentPosts = [
-        {
-            title: "Deumanto Sollicitudin Delo",
-            author: "Trisara Community",
-            date: "Jul 18, 2024",
-            excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus leo, elementum in malesuada an darius...",
-            image: "https://new-ella-demo-11.myshopify.com/cdn/shop/articles/blog-fur-1_560x.jpg?v=1658202489"
-        },
-        {
-            title: "Loremous Comodous: Trending",
-            author: "Trisara Community",
-            date: "Jul 18, 2024",
-            excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus leo, elementum in malesuada an darius...",
-            image: "https://new-ella-demo-11.myshopify.com/cdn/shop/articles/blog-fur-3_560x.jpg?v=1658202656"
-        },
-        {
-            title: "Commodo Muso Magna",
-            author: "Trisara Community",
-            date: "Jul 18, 2024",
-            excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus leo, elementum in malesuada an darius...",
-            image: "https://new-ella-demo-11.myshopify.com/cdn/shop/articles/blog-fur-2_560x.jpg?v=1658202563"
-        }
+        // {
+        //     title: "Deumanto Sollicitudin Delo",
+        //     author: "Trisara Community",
+        //     date: "Jul 18, 2024",
+        //     excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus leo, elementum in malesuada an darius...",
+        //     image: "https://new-ella-demo-11.myshopify.com/cdn/shop/articles/blog-fur-1_560x.jpg?v=1658202489"
+        // },
+        // {
+        //     title: "Loremous Comodous: Trending",
+        //     author: "Trisara Community",
+        //     date: "Jul 18, 2024",
+        //     excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus leo, elementum in malesuada an darius...",
+        //     image: "https://new-ella-demo-11.myshopify.com/cdn/shop/articles/blog-fur-3_560x.jpg?v=1658202656"
+        // },
+        // {
+        //     title: "Commodo Muso Magna",
+        //     author: "Trisara Community",
+        //     date: "Jul 18, 2024",
+        //     excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus leo, elementum in malesuada an darius...",
+        //     image: "https://new-ella-demo-11.myshopify.com/cdn/shop/articles/blog-fur-2_560x.jpg?v=1658202563"
+        // }
     ];
 </script>
 

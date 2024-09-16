@@ -1,3 +1,8 @@
+<script>
+
+	import VideoPlayer from "../VideoPlayer.svelte";
+
+</script>
 <section class="bg-white text-brand-dark min-h-screen flex items-center justify-center relative overflow-hidden">
     <div class="absolute inset-0 bg-[url('/images/liw-hero.png')] opacity-5"></div>
     <div class="container mx-auto px-8 py-24 flex flex-col lg:flex-row items-center space-y-16 lg:space-y-0 lg:space-x-24 relative z-10">
@@ -15,10 +20,7 @@
             </a>
         </div>
         <div class="lg:w-1/2">
-            <div class="relative aspect-[4/3] overflow-hidden shadow-2xl">
-                <img src="/images/bg-image.png" alt="Our Story" class="object-cover w-full h-full transition-transform duration-700 hover:scale-105">
-                <div class="absolute inset-0 bg-gradient-to-t from-brand-burgundy to-transparent opacity-30"></div>
-            </div>
+            <VideoPlayer src="/who-we-are.mp4" />
         </div>
     </div>
 </section>
