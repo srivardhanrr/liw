@@ -21,11 +21,12 @@
 					their careers. This gathering unites industry leaders, experts, and thought influencers
 					from various sectors.
 				</p>
+				<h3 class="font-playfair text-2xl font-bold leading-tight text-brand-burgundy md:text-3xl">Agenda Overview				</h3>
 				<ul class="list-inside list-disc">
-					<li class="py-1"><b class="text-brand-burgundy">Opening Keynote:</b> A visionary industry leader will set the tone for the event, discussing the future of technology and leadership.</li>
-					<li class="py-1"><b class="text-brand-burgundy">Panel Discussions:</b> Experts will dive into emerging trends, including the impact of IoT and cybersecurity on global industries.</li>
-					<li class="py-1"><b class="text-brand-burgundy">Hands-On Workshops:</b> Interactive sessions where participants will gain practical skills in areas directly relevant to current market needs.</li>
-					<li class="py-1"><b class="text-brand-burgundy">Networking Sessions:</b> Dedicated time for one-on-one networking, where leaders and students can connect.</li>
+					<li class="py-1 text-sm md:text-md"><b class="text-brand-burgundy">Opening Keynote:</b> A visionary industry leader will set the tone for the event, discussing the future of technology and leadership.</li>
+					<li class="py-1 text-sm md:text-md"><b class="text-brand-burgundy">Panel Discussions:</b> Experts will dive into emerging trends, including the impact of IoT and cybersecurity on global industries.</li>
+					<li class="py-1 text-sm md:text-md"><b class="text-brand-burgundy">Hands-On Workshops:</b> Interactive sessions where participants will gain practical skills in areas directly relevant to current market needs.</li>
+					<li class="py-1 text-sm md:text-md"><b class="text-brand-burgundy">Networking Sessions:</b> Dedicated time for one-on-one networking, where leaders and students can connect.</li>
 				</ul>
 				<!-- <p class="font-inter text-brand-dark text-sm leading-relaxed md:text-lg">
 					The symposium features dynamic panel discussions and inspiring keynote sessions that
