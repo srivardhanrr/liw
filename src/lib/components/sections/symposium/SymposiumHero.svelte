@@ -21,11 +21,17 @@
 					their careers. This gathering unites industry leaders, experts, and thought influencers
 					from various sectors.
 				</p>
-				<p class="font-inter text-brand-dark text-sm leading-relaxed md:text-lg">
+				<ul class="list-inside list-disc">
+					<li class="py-1"><b class="text-brand-burgundy">Opening Keynote:</b> A visionary industry leader will set the tone for the event, discussing the future of technology and leadership.</li>
+					<li class="py-1"><b class="text-brand-burgundy">Panel Discussions:</b> Experts will dive into emerging trends, including the impact of IoT and cybersecurity on global industries.</li>
+					<li class="py-1"><b class="text-brand-burgundy">Hands-On Workshops:</b> Interactive sessions where participants will gain practical skills in areas directly relevant to current market needs.</li>
+					<li class="py-1"><b class="text-brand-burgundy">Networking Sessions:</b> Dedicated time for one-on-one networking, where leaders and students can connect.</li>
+				</ul>
+				<!-- <p class="font-inter text-brand-dark text-sm leading-relaxed md:text-lg">
 					The symposium features dynamic panel discussions and inspiring keynote sessions that
 					provide students with invaluable insights into skill mastery, career development, and
 					emerging job market trends.
-				</p>
+				</p> -->
 				<!-- <button class="btn-primary flex items-center space-x-2 group">
                     <span>Learn More</span>
                     <ChevronRight class="w-5 h-5 group-hover:transform group-hover:translate-x-1 transition-transform" />
