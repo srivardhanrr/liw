@@ -12,6 +12,8 @@
 	import GoalsAndMission from '$lib/components/sections/GoalsAndMission.svelte';
 	import RecentPosts from '$lib/components/sections/blogs/RecentPosts.svelte';
 
+	export let form;
+
 	const faqs = [
 		{
 			question: 'Who can benefit from your programs?',
@@ -62,7 +64,7 @@
 		How long can you afford to be left behind in the corporate race?
 	</p>
 </div>
-<CourseFinderForm />
+<CourseFinderForm {form} />
 <OurApproach />
 <div class="m-4 grid grid-cols-1 gap-8 md:m-8 md:grid-cols-2">
 	<div class="rounded-lg bg-brand-burgundy p-6 text-white">

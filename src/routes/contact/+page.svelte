@@ -1,12 +1,14 @@
 <script>
+  import { enhance } from '$app/forms';
+
+  export let form;
+
   let name = '';
   let email = '';
   let message = '';
   let submitted = false;
 
-  function handleSubmit() {
-    // Here you would typically send the form data to a server
-    console.log({ name, email, message });
+  $: if (form?.success) {
     submitted = true;
   }
 </script>
@@ -24,17 +26,17 @@
         <!-- Contact Form -->
         <div class="p-8 bg-white rounded-l-xl">
           {#if !submitted}
-            <form on:submit|preventDefault={handleSubmit} class="space-y-6">
+            <form method="POST" use:enhance class="space-y-6">
               <div class="relative">
-                <input type="text" id="name" bind:value={name} required class="peer w-full border-b border-gray-300 py-2 focus:border-brand-burgundy focus:outline-none bg-transparent transition-colors" placeholder=" ">
+                <input type="text" id="name" name="name" bind:value={name} required class="peer w-full border-b border-gray-300 py-2 focus:border-brand-burgundy focus:outline-none bg-transparent transition-colors" placeholder=" ">
                 <label for="name" class="absolute left-0 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-sm peer-focus:text-brand-burgundy">Name</label>
               </div>
               <div class="relative">
-                <input type="email" id="email" bind:value={email} required class="peer w-full border-b border-gray-300 py-2 focus:border-brand-burgundy focus:outline-none bg-transparent transition-colors" placeholder=" ">
+                <input type="email" id="email" name="email" bind:value={email} required class="peer w-full border-b border-gray-300 py-2 focus:border-brand-burgundy focus:outline-none bg-transparent transition-colors" placeholder=" ">
                 <label for="email" class="absolute left-0 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-sm peer-focus:text-brand-burgundy">Email</label>
               </div>
               <div class="relative">
-                <textarea id="message" bind:value={message} rows="4" required class="peer w-full border-b border-gray-300 py-2 focus:border-brand-burgundy focus:outline-none bg-transparent transition-colors resize-none" placeholder=" "></textarea>
+                <textarea id="message" name="message" bind:value={message} rows="4" required class="peer w-full border-b border-gray-300 py-2 focus:border-brand-burgundy focus:outline-none bg-transparent transition-colors resize-none" placeholder=" "></textarea>
                 <label for="message" class="absolute left-0 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-sm peer-focus:text-brand-burgundy">Message</label>
               </div>
               <button type="submit" class="w-full bg-brand-burgundy text-white py-3 rounded-full hover:bg-brand-gold transition duration-300 font-bricolage text-sm uppercase tracking-wider">

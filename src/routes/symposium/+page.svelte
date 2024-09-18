@@ -9,6 +9,8 @@
 	import { Button } from '$lib/components/ui/button';
 	import SpeakerCallout from '$lib/components/sections/symposium/SpeakerCallout.svelte';
 
+    export let form;
+
     const faqs = [
   {
     "question": "Who can attend the symposium?",
@@ -97,7 +99,7 @@
             Learn More →
         </a>
     </div> -->
-    <SymposiumApplicationForm />
+    <SymposiumApplicationForm form={form} />
     <Faqs faqs={faqs} />
     <NewsletterSignup />
     <!-- Add more sections here as we build them -->

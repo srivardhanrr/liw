@@ -1,62 +1,70 @@
-<!-- src/components/CourseRegistrationForm.svelte -->
 <script>
-    let name = '';
-    let email = '';
-    let selectedCourse = '';
-  
-    function handleSubmit() {
-      console.log({ name, email, selectedCourse });
-      // Add your form submission logic here
-    }
-  </script>
-  
-  <section class="bg-brand-light py-16">
-    <div class="container mx-auto px-4">
+  import { enhance } from '$app/forms';
+
+  export let form;
+
+  let name = '';
+  let email = '';
+  let selectedCourse = '';
+  let message = '';
+
+  $: submitted = form?.success || false;
+</script>
+
+<section class="bg-brand-light py-16">
+  <div class="container mx-auto px-4">
       <h2 class="font-playfair text-4xl text-brand-burgundy mb-8 text-center">Register for a Course</h2>
       
       <div class="flex flex-col md:flex-row gap-8">
-        <!-- Form on the left -->
-        <div class="w-full md:w-1/2">
-          <form on:submit|preventDefault={handleSubmit} class="bg-white rounded-lg shadow-lg p-8">
-            <div class="mb-4">
-              <label for="name" class="block text-brand-dark font-bricolage mb-2">Name</label>
-              <input type="text" id="name" bind:value={name} required
-                     class="w-full px-3 py-2 border border-brand-gold rounded-md">
-            </div>
-            <div class="mb-4">
-              <label for="email" class="block text-brand-dark font-bricolage mb-2">Email</label>
-              <input type="email" id="email" bind:value={email} required
-                     class="w-full px-3 py-2 border border-brand-gold rounded-md">
-            </div>
-            <div class="mb-4">
-              <label for="course" class="block text-brand-dark font-bricolage mb-2">Course</label>
-              <select id="course" bind:value={selectedCourse} required
-                      class="w-full px-3 py-2 border border-brand-gold rounded-md">
-                <option value="">Select a course</option>
-                <option value="leadership">Leadership and Management</option>
-                <option value="personal">Personal Development</option>
-                <option value="marketing">Marketing and Sales</option>
-                <option value="hr">Human Resources</option>
-                <option value="organizational">Organizational Essentials</option>
-                <option value="administrative">Administrative Skills</option>
-                <option value="professional">Professional Advancement</option>
-                <option value="career">Advanced Career Building</option>
-              </select>
-            </div>
-            <div class="mb-4">
-                <label for="message" class="block text-brand-dark font-bricolage mb-2">Message</label>
-                <textarea id="message" required
-                          class="w-full px-3 py-2 border border-brand-gold rounded-md"></textarea>
-              </div>
-            <button type="submit" 
-                    class="w-full bg-brand-burgundy text-white font-bricolage py-2 px-4 rounded-md hover:bg-brand-gold transition duration-300">
-              Register
-            </button>
-          </form>
-        </div>
-        
-        <!-- SVG Graphic on the right -->
-        <div class="w-full md:w-1/2 flex items-center justify-center">
+          <!-- Form on the left -->
+          <div class="w-full md:w-1/2">
+              {#if !submitted}
+                  <form method="POST" use:enhance class="bg-white rounded-lg shadow-lg p-8">
+                      <div class="mb-4">
+                          <label for="name" class="block text-brand-dark font-bricolage mb-2">Name</label>
+                          <input type="text" id="name" name="name" bind:value={name} required
+                                 class="w-full px-3 py-2 border border-brand-gold rounded-md">
+                      </div>
+                      <div class="mb-4">
+                          <label for="email" class="block text-brand-dark font-bricolage mb-2">Email</label>
+                          <input type="email" id="email" name="email" bind:value={email} required
+                                 class="w-full px-3 py-2 border border-brand-gold rounded-md">
+                      </div>
+                      <div class="mb-4">
+                          <label for="course" class="block text-brand-dark font-bricolage mb-2">Course</label>
+                          <select id="course" name="course" bind:value={selectedCourse} required
+                                  class="w-full px-3 py-2 border border-brand-gold rounded-md">
+                              <option value="">Select a course</option>
+                              <option value="leadership">Leadership and Management</option>
+                              <option value="personal">Personal Development</option>
+                              <option value="marketing">Marketing and Sales</option>
+                              <option value="hr">Human Resources</option>
+                              <option value="organizational">Organizational Essentials</option>
+                              <option value="administrative">Administrative Skills</option>
+                              <option value="professional">Professional Advancement</option>
+                              <option value="career">Advanced Career Building</option>
+                          </select>
+                      </div>
+                      <div class="mb-4">
+                          <label for="message" class="block text-brand-dark font-bricolage mb-2">Message</label>
+                          <textarea id="message" name="message" bind:value={message} required
+                                    class="w-full px-3 py-2 border border-brand-gold rounded-md"></textarea>
+                      </div>
+                      <button type="submit" 
+                              class="w-full bg-brand-burgundy text-white font-bricolage py-2 px-4 rounded-md hover:bg-brand-gold transition duration-300">
+                          Register
+                      </button>
+                  </form>
+              {:else}
+                  <div class="bg-white rounded-lg shadow-lg p-8 text-center">
+                      <h3 class="text-2xl font-playfair text-brand-burgundy mb-4">Registration Successful!</h3>
+                      <p class="text-brand-dark">Thank you for registering. We'll be in touch with more information about your course.</p>
+                  </div>
+              {/if}
+          </div>
+          
+          <!-- SVG Graphic on the right -->
+          <div class="w-full md:w-1/2 flex items-center justify-center">
             <svg
             class="h-auto w-full"
             viewBox="0 0 500 500"

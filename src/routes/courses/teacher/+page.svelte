@@ -3,6 +3,8 @@
 	import CourseRegistrationForm from '$lib/components/sections/courses/CourseRegistrationForm.svelte';
   import { fade } from 'svelte/transition';
 
+  export let form;
+
   const courseCategories = [
     {
       name: "Leadership and Management",
@@ -142,4 +144,4 @@
     {/each}
   </div>
 </div>
-<CourseRegistrationForm />
+<CourseRegistrationForm form={form} />
