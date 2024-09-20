@@ -13,45 +13,22 @@
         return () => window.removeEventListener('resize', checkMobile);
     });
 
-    // export let posts;
+    export let posts;
 
-    const recentPosts = [
-        // {
-        //     title: "Deumanto Sollicitudin Delo",
-        //     author: "Trisara Community",
-        //     date: "Jul 18, 2024",
-        //     excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus leo, elementum in malesuada an darius...",
-        //     image: "https://new-ella-demo-11.myshopify.com/cdn/shop/articles/blog-fur-1_560x.jpg?v=1658202489"
-        // },
-        // {
-        //     title: "Loremous Comodous: Trending",
-        //     author: "Trisara Community",
-        //     date: "Jul 18, 2024",
-        //     excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus leo, elementum in malesuada an darius...",
-        //     image: "https://new-ella-demo-11.myshopify.com/cdn/shop/articles/blog-fur-3_560x.jpg?v=1658202656"
-        // },
-        // {
-        //     title: "Commodo Muso Magna",
-        //     author: "Trisara Community",
-        //     date: "Jul 18, 2024",
-        //     excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus leo, elementum in malesuada an darius...",
-        //     image: "https://new-ella-demo-11.myshopify.com/cdn/shop/articles/blog-fur-2_560x.jpg?v=1658202563"
-        // }
-    ];
 </script>
 
-{#if recentPosts.length > 0}
-<section class="py-12 bg-white">
+{#if posts.length > 0}
+<section class=" bg-white">
     <div class="container mx-auto px-4">
         <div class="flex justify-between items-center mb-8">
-            <h2 class="text-5xl text-brand-burgundy font-bold">Recent Posts</h2>
+            <h2 class="text-3xl lg:text-5xl text-brand-burgundy">Recent Posts</h2>
             <a href="/blogs" class="text-brand-burgundy hover:underline">View All</a>
         </div>
 
         {#if isMobile}
             <Carousel.Root opts={{ align: "start" }}>
                 <Carousel.Content>
-                    {#each recentPosts as post}
+                    {#each posts.slice(0, 3) as post}
                         <Carousel.Item class="md:basis-1/2 lg:basis-1/3">
                             <div class="bg-white rounded-lg overflow-hidden">
                                 {#if post.image}
@@ -63,15 +40,17 @@
                                 {/if}
                                 <div class="p-4">
                                     {#if post.title}
-                                        <h3 class="text-xl font-semibold mb-2">{post.title}</h3>
+                                        <a class="text-brand-burgundy hover:underline" href='blogs/{post.slug}'>
+                                            <h3 class="text-xl font-semibold mb-2">{post.title}</h3>
+                                        </a>
                                     {/if}
                                     <!-- <p class="text-sm text-gray-600 mb-2">by {post.author} on {post.date}</p> -->
-                                    {#if post.excerpt}
-                                        <p class="text-gray-700 mb-4">{post.excerpt}</p>
+                                    {#if post.description}
+                                        <p class="text-gray-700 mb-4">{post.description}</p>
                                     {/if}
-                                    <a href='blogs/{post.title}'
-                                       class="text-orange-500 hover:underline">
-                                        View Details
+                                    <a href='blogs/{post.slug}'
+                                       class="text-brand-burgundy hover:underline">
+                                        Read More
                                     </a>
                                 </div>
                             </div>
@@ -87,27 +66,26 @@
                 <span class="h-2 w-2 rounded-full bg-gray-300 mx-1"></span>
             </div>
         {:else}
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {#each recentPosts as post}
+        <div class="grid grid-cols-1 mt-12 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {#each posts as post}
                     <div class="bg-white rounded-lg overflow-hidden shadow-md">
-          <div class="relative overflow-hidden">
-            {#if post.image}
-            <img
+                        <div class="relative overflow-hidden">
+                            {#if post.image}
+                                <img
               src={post.image}
               alt={post.title}
-              class="w-full h-64 object-cover transition-transform duration-300 ease-in-out transform hover:scale-110"
-            />
+              class="w-full h-64 object-cover transition-transform duration-300 ease-in-out transform hover:scale-110" />
             {/if}
           </div>
           <div class="p-6">
             {#if post.title}
-            <h3 class="text-xl font-semibold mb-2">{post.title}</h3>
+            <a class="text-brand-burgundy hover:underline" href='blogs/{post.slug}'>
+                <h3 class="text-xl font-semibold mb-2">{post.title}</h3>
+            </a>
             {/if}
-            <!-- <p class="text-sm text-gray-600 mb-4">by {post.author} on {post.date}</p> -->
-            
-            <p class="text-gray-700 mb-4">{post.excerpt}</p>
-            <a href='blogs/{post.title}' class="text-orange-500 hover:underline">
-              View Details
+            <p class="text-gray-700 mb-4">{post.description}</p>
+            <a href='blogs/{post.slug}' class="text-brand-burgundy hover:underline">
+              Read More
             </a>
           </div>
         </div>

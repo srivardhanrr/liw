@@ -1,5 +1,9 @@
 import { fail } from '@sveltejs/kit';
 import { BACKEND_API_URL } from '$env/static/private';
+export const prerender = false;
+
+import type { PageServerLoad } from './$types';
+import { api } from '$lib/api';
 
 export const actions = {
     default: async ({ request }) => {
@@ -32,3 +36,14 @@ export const actions = {
         }
     }
 };
+
+
+
+export const load: PageServerLoad = async () => {
+    const [caseStudies, blogPosts] = await Promise.all([
+        api.getCaseStudies(),
+        api.getBlogPosts(),
+    ]);
+    return {caseStudies, blogPosts};
+};
+

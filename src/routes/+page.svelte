@@ -11,8 +11,11 @@
 	import AudienceSelection from '$lib/components/sections/AudienceSelection.svelte';
 	import GoalsAndMission from '$lib/components/sections/GoalsAndMission.svelte';
 	import RecentPosts from '$lib/components/sections/blogs/RecentPosts.svelte';
+	import CaseStudies from '$lib/components/sections/CaseStudies.svelte';
 
 	export let form;
+
+	export let data;
 
 	const faqs = [
 		{
@@ -121,6 +124,6 @@
 
 <OurGoals />
 
-<RecentPosts />
-
+<RecentPosts posts={data.blogPosts}/>
+<CaseStudies caseStudies={data.caseStudies}/>
 <Faqs {faqs} />
