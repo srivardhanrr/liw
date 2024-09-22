@@ -10,7 +10,7 @@
 
 	export let form;
 
-	const NewCourseCategories = [
+	export let NewCourseCategories = [
 		{
 			name: 'Leadership and Management',
 			courses: [
@@ -940,7 +940,7 @@
 				<div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
 					{#each category.courses as course}
 						<button
-							class="border-brand-gold border rounded-lg p-4 shadow-md transition-all duration-300 hover:shadow-lg"
+							class="rounded-lg bg-white p-4 shadow-md transition-shadow hover:shadow-lg"
 							on:click={() => {
 								selectedCourse = course;
 								dialogOpen = true;

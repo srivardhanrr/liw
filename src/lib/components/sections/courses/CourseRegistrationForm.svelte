@@ -11,7 +11,7 @@
   $: submitted = form?.success || false;
 </script>
 
-<section class="bg-brand-light py-16">
+<section id="course-enroll" class="bg-brand-light py-16">
   <div class="container mx-auto px-4">
       <h2 class="font-playfair text-4xl text-brand-burgundy mb-8 text-center">Register for a Course</h2>
       
