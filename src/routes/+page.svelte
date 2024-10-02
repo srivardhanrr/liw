@@ -69,6 +69,7 @@
 </div>
 <CourseFinderForm {form} />
 <OurApproach />
+<div class="container">
 <div class="m-4 grid grid-cols-1 gap-8 md:m-8 md:grid-cols-2">
 	<div class="rounded-lg bg-brand-burgundy p-6 text-white">
 		<h3 class="mb-4 font-playfair text-xl">For Startups</h3>
@@ -90,6 +91,7 @@
 			>Advance Your Career →</a
 		>
 	</div>
+</div>
 </div>
 
 <AudienceSelection />

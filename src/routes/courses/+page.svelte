@@ -156,11 +156,13 @@
 								{/each}
 							</ul>
 							<div class="mt-auto">
+								<a href={program.link}>
 								<Button
-									class="hover:bg-brand-yellow w-full bg-brand-burgundy text-white transition-colors duration-300 hover:text-brand-black"
+									class="hover:bg-brand-yellow w-full bg-brand-burgundy text-white transition-colors duration-300 hover:text-brand-dark-gold"
 								>
-									<a href={program.link}>Learn More </a>
+									Learn More 
 								</Button>
+							</a>
 							</div>
 						</div>
 					{/each}

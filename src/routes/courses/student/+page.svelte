@@ -12,7 +12,7 @@ let selectedCourse = null;
 
 	export let form;
 
-	const newCourseCategories = [
+	const NewCourseCategories = [
 		{
 			name: 'Leadership and Management',
 			courses: [
