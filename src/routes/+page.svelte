@@ -5,13 +5,13 @@
 	import OurApproach from '$lib/components/sections/OurApproach.svelte';
 	import OurGoals from '$lib/components/sections/OurGoals.svelte';
 	import WhoWeAre from '$lib/components/sections/WhoWeAre.svelte';
-	import { Button } from '$lib/components/ui/button';
 	import WhatWeProvide from '$lib/components/sections/WhatWeProvide.svelte';
 	import CourseFinderForm from '$lib/components/sections/CourseFinderForm.svelte';
 	import AudienceSelection from '$lib/components/sections/AudienceSelection.svelte';
 	import GoalsAndMission from '$lib/components/sections/GoalsAndMission.svelte';
 	import RecentPosts from '$lib/components/sections/blogs/RecentPosts.svelte';
 	import CaseStudies from '$lib/components/sections/CaseStudies.svelte';
+	import Partnership from '$lib/components/sections/Partnership.svelte';
 
 	export let form;
 
@@ -69,8 +69,9 @@
 </div>
 <CourseFinderForm {form} />
 <OurApproach />
-<div class="container">
-<div class="m-4 grid grid-cols-1 gap-8 md:m-8 md:grid-cols-2">
+<Partnership />
+<div class="md:container">
+<div class="m-4 grid grid-cols-1 gap-8 md:grid-cols-2">
 	<div class="rounded-lg bg-brand-burgundy p-6 text-white">
 		<h3 class="mb-4 font-playfair text-xl">For Startups</h3>
 		<p class="mb-4 font-bricolage">
@@ -97,32 +98,6 @@
 <AudienceSelection />
 <GoalsAndMission />
 <KeyBenefits />
-
-<!-- <div class="bg-brand-gold/20 py-8 text-center">
-	<h3 class="mb-2 font-playfair text-2xl text-brand-burgundy">
-		Are you losing out on key opportunities?
-	</h3>
-	<p class="mb-4 text-lg text-gray-700">
-		While others network and influence, are you fading into the background?
-	</p>
-	<Button
-		variant="outline"
-		class="border-brand-burgundy text-brand-burgundy hover:bg-brand-burgundy hover:text-white"
-	>
-		Boost Your Social Intelligence Now
-	</Button>
-</div> -->
-<!-- <div class="hidden lg:block fixed bottom-4 right-4 bg-white p-6 rounded-lg shadow-xl max-w-sm">
-    <h3 class="font-bricolage text-xl text-brand-burgundy mb-2">
-      Why are others leading themselves to success while you wait for direction?
-    </h3>
-    <p class="text-gray-700 mb-4">
-      If you don't develop self-leadership now, how much longer will you be stuck in the shadows?
-    </p>
-    <Button variant="outline" class="w-full border-brand-burgundy text-brand-burgundy hover:bg-brand-burgundy hover:text-white">
-      Start Your Leadership Journey
-    </Button>
-  </div> -->
 
 <OurGoals />
 

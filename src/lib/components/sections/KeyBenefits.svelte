@@ -3,9 +3,7 @@
 	import * as Card from '$lib/components/ui/card';
 	import { UserRoundPen, LibraryBig, Shapes, Cable, Globe, Users } from 'lucide-svelte';
 
-	// Assuming these are props or data that need to be defined
-	let content: any; // Define the type and value as needed
-	let faqs: any; // Define the type and value as needed
+
 </script>
 
 <div class="bg-gradient-to-r from-brand-black to-[#540c20]">

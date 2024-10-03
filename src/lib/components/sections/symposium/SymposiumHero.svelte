@@ -21,6 +21,7 @@
 					their careers. This gathering unites industry leaders, experts, and thought influencers
 					from various sectors.
 				</p>
+				<!-- <div>
 				<h3 class="font-playfair text-2xl font-bold leading-tight text-brand-burgundy md:text-3xl">
 					Agenda Overview
 				</h3>
@@ -65,6 +66,7 @@
 						</div>
 					</li>
 				</ul>
+			</div> -->
 			</div>
 			<VideoPlayer src="/symposium.mp4" />
 		</div>

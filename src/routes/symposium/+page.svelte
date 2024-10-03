@@ -8,6 +8,7 @@
     import { Presentation, Users, TrendingUp } from 'lucide-svelte'
 	import { Button } from '$lib/components/ui/button';
 	import SpeakerCallout from '$lib/components/sections/symposium/SpeakerCallout.svelte';
+	import AgendaOverview from '$lib/components/sections/symposium/AgendaOverview.svelte';
 
     export let form;
 
@@ -46,6 +47,7 @@
   <main>
     <SymposiumHero />
     <WhyHostSection />
+    <AgendaOverview />
     <SpeakerCallout />
 
     <section class="container mx-auto px-4 py-16 bg-brand-gold bg-opacity-10">
