@@ -4,7 +4,7 @@
   
   <section class="bg-white md:p-16">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-playfair text-brand-burgundy mb-10 text-center">
+      <h2 class="text-4xl font-playfair text-brand-burgundy mb-10 text-center">
         Agenda Overview
       </h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">

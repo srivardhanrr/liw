@@ -40,10 +40,11 @@ export const actions = {
 
 
 export const load: PageServerLoad = async () => {
-    const [caseStudies, blogPosts] = await Promise.all([
+    const [caseStudies, blogPosts, testimonials] = await Promise.all([
         api.getCaseStudies(),
         api.getBlogPosts(),
+        api.getTestimonials()
     ]);
-    return {caseStudies, blogPosts};
+    return {caseStudies, blogPosts, testimonials};
 };
 

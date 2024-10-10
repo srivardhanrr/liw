@@ -74,12 +74,10 @@
 				<h3 class="mb-4 text-lg font-semibold">Resources</h3>
 				<ul class="space-y-2">
 					<li>
-						<a href="/" class="text-brand-burgundy transition-colors hover:text-brand-gold">Blog</a>
+						<a href="/blogs" class="text-brand-burgundy transition-colors hover:text-brand-gold">Blog</a>
 					</li>
-					<!-- <li><a href="/case-studies" class="text-brand-burgundy hover:text-brand-gold transition-colors">Case Studies</a></li> -->
-					<!-- <li><a href="/whitepapers" class="text-brand-burgundy hover:text-brand-gold transition-colors">Whitepapers</a></li> -->
 					<li>
-						<a href="/" class="text-brand-burgundy transition-colors hover:text-brand-gold">FAQ</a>
+						<a href="/case-studies" class="text-brand-burgundy transition-colors hover:text-brand-gold">Case Studies</a>
 					</li>
 				</ul>
 			</div>

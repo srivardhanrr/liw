@@ -12,6 +12,7 @@
 	import RecentPosts from '$lib/components/sections/blogs/RecentPosts.svelte';
 	import CaseStudies from '$lib/components/sections/CaseStudies.svelte';
 	import Partnership from '$lib/components/sections/Partnership.svelte';
+	import Testimonials from '$lib/components/sections/Testimonials.svelte';
 
 	export let form;
 
@@ -97,6 +98,7 @@
 
 <AudienceSelection />
 <GoalsAndMission />
+<Testimonials testimonials={data.testimonials} />
 <KeyBenefits />
 
 <OurGoals />

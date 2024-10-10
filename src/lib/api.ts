@@ -13,5 +13,6 @@ export const api = {
 	getBlogPosts: () => fetchAPI('/blogs/'),
 	getBlogPost: (slug: string) => fetchAPI(`/blogs/${slug}/`),
 	getCaseStudies: () => fetchAPI('/case-studies/'),
-	getCaseStudy: (slug: string) => fetchAPI(`/case-studies/${slug}/`)
+	getCaseStudy: (slug: string) => fetchAPI(`/case-studies/${slug}/`),
+	getTestimonials: () => fetchAPI('/testimonials/'),
 };

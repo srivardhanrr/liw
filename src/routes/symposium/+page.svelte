@@ -9,6 +9,7 @@
 	import { Button } from '$lib/components/ui/button';
 	import SpeakerCallout from '$lib/components/sections/symposium/SpeakerCallout.svelte';
 	import AgendaOverview from '$lib/components/sections/symposium/AgendaOverview.svelte';
+	import EventVideo from '$lib/components/sections/EventVideo.svelte';
 
     export let form;
 
@@ -47,6 +48,7 @@
   <main>
     <SymposiumHero />
     <WhyHostSection />
+    <EventVideo videoId="sGHtsaHqfJ8" title="BNMIT X LIW Symposium" />
     <AgendaOverview />
     <SpeakerCallout />
 
