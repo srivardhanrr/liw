@@ -52,14 +52,14 @@
 						>
 					</li>
 					<li>
-						<a href="/programs" class="text-brand-burgundy transition-colors hover:text-brand-gold"
-							>Our Programs</a
+						<a href="/courses" class="text-brand-burgundy transition-colors hover:text-brand-gold"
+							>Courses</a
 						>
 					</li>
 					<li>
 						<a
-							href="/symposiums"
-							class="text-brand-burgundy transition-colors hover:text-brand-gold">Symposiums</a
+							href="/symposium"
+							class="text-brand-burgundy transition-colors hover:text-brand-gold">Symposium</a
 						>
 					</li>
 					<li>
