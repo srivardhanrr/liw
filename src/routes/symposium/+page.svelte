@@ -11,6 +11,7 @@
 	import AgendaOverview from '$lib/components/sections/symposium/AgendaOverview.svelte';
 	import EventVideo from '$lib/components/sections/EventVideo.svelte';
 	import Gallery from '$lib/components/sections/Gallery.svelte';
+	import Calendly from '$lib/components/sections/Calendly.svelte';
 
     export let form;
 
@@ -52,8 +53,8 @@
     <EventVideo videoId="sGHtsaHqfJ8" title="BNMIT X LIW Symposium" />
     <Gallery />
     <AgendaOverview />
+    <Calendly />
     <SpeakerCallout />
-
     <section class="container mx-auto px-4 py-16 bg-brand-gold bg-opacity-10">
       <h2 class="font-playfair text-3xl md:text-4xl text-center font-bold mb-8 text-brand-burgundy">Why Host a Symposium at Your Institution?</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -90,21 +91,6 @@
         </div>
       </section>
     <KeyBenefitsStudents />
-    <!-- <div class="md:mx-16 md:my-16 m-8 border-l-4 border-brand-gold pl-6">
-        <h3 class="mb-4 font-playfair text-2xl text-brand-burgundy">
-            Unlock Your Startup's Hidden Potential
-        </h3>
-        <p class="mb-6 font-bricolage text-lg text-gray-700">
-            What if you could reduce your startup's waste by 30% next quarter—would you let that opportunity
-            pass by?
-        </p>
-        <a
-            href="/contact"
-            class="font-bricolage uppercase tracking-wider text-brand-gold transition duration-300 hover:text-brand-burgundy"
-        >
-            Learn More →
-        </a>
-    </div> -->
     <SymposiumApplicationForm form={form} />
     <Faqs faqs={faqs} />
     <NewsletterSignup />

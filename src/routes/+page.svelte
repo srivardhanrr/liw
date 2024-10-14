@@ -13,6 +13,7 @@
 	import CaseStudies from '$lib/components/sections/CaseStudies.svelte';
 	import Partnership from '$lib/components/sections/Partnership.svelte';
 	import Testimonials from '$lib/components/sections/Testimonials.svelte';
+	import Calendly from '$lib/components/sections/Calendly.svelte';
 
 	export let form;
 
@@ -69,6 +70,8 @@
 	</p>
 </div>
 <CourseFinderForm {form} />
+<Calendly />
+
 <OurApproach />
 <Partnership />
 <div class="md:container">
