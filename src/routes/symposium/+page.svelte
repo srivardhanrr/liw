@@ -10,6 +10,7 @@
 	import SpeakerCallout from '$lib/components/sections/symposium/SpeakerCallout.svelte';
 	import AgendaOverview from '$lib/components/sections/symposium/AgendaOverview.svelte';
 	import EventVideo from '$lib/components/sections/EventVideo.svelte';
+	import Gallery from '$lib/components/sections/Gallery.svelte';
 
     export let form;
 
@@ -49,6 +50,7 @@
     <SymposiumHero />
     <WhyHostSection />
     <EventVideo videoId="sGHtsaHqfJ8" title="BNMIT X LIW Symposium" />
+    <Gallery />
     <AgendaOverview />
     <SpeakerCallout />
 

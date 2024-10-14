@@ -48,7 +48,7 @@
 <OurStoryHero />
 <OurJouney />
 
-<h2 class="text-4xl md:text-6xl font-playfair text-center md-8 md:mb-16 text-brand-burgundy">Our Visionary Founders</h2>
+<h2 class="text-4xl md:text-6xl font-playfair text-center md-8 md:mb-16 text-brand-burgundy">Our Founders</h2>
 
 {#each founders_details as founder}
 <section class="py-12 bg-white">
