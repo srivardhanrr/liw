@@ -1,5 +1,6 @@
 <script>
   import { enhance } from '$app/forms';
+	import Calendly from '$lib/components/sections/Calendly.svelte';
 
   export let form;
 
@@ -82,3 +83,5 @@
     </div>
   </div>
 </section>
+
+<Calendly />

@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { Share2 } from 'lucide-svelte';
 	import Menu from 'lucide-svelte/icons/menu';
-	import { Button } from '$lib/components/ui/button';
+	import { Button } from "$lib/components/ui/button";
 	import * as DropdownMenu from '$lib/components/ui/dropdown-menu';
 	import * as Sheet from '$lib/components/ui/sheet';
 
@@ -82,7 +82,8 @@
 		</div>
 
 		<div class="flex flex-1 items-center justify-end space-x-4">
-			<DropdownMenu.Root>
+			<Button class="bg-brand-burgundy hidden" variant="destructive">Symposium </Button>
+			<!-- <DropdownMenu.Root>
 				<DropdownMenu.Trigger asChild let:builder>
 					<Button builders={[builder]} variant="ghost" size="icon" class="rounded-full">
 						<Share2 class="h-6 w-6" />
@@ -94,7 +95,7 @@
 					<DropdownMenu.Item>LinkedIn</DropdownMenu.Item>
 					<DropdownMenu.Item>X</DropdownMenu.Item>
 				</DropdownMenu.Content>
-			</DropdownMenu.Root>
+			</DropdownMenu.Root> -->
 		</div>
 	</div>
 </header>
