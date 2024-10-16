@@ -10,12 +10,12 @@
         name: 'Jeevitha P. Raju',
         title: 'Founder of Leadership Innovation World',
         image: '/images/jeevithaNew.jpg',
-        background: 'Jeevitha P. Raju is an experienced educator and communication coach. With over a decade of experience, she has empowered over half a million individuals across India, focusing on honing soft skills and preparing students for success in the global environment.',
+        background: 'Jeevitha P Raju, a dedicated educator and Triple Crown award winner with over a decade of experience in bridging the gap between industry and academia helping them unlock their true potential. Empowered over 500,000 individuals across India in communication and soft skills for global success enhancing their professional capabilities.',
         achievements: [
-            'Educated in communication at prestigious institutions like Leaders Excellence and Harvard Square.',
-            'Promoted higher education opportunities in Malaysia.',
-            'Contributed to educational policies in Bengaluru South.',
-            'Worked in corporate training and educational leadership.'
+            'Affiliated with Leaders Excellence, Harvard Square , and actively represents India at international summits.',
+            'Corporate Influence with brands like Bosch, SEG, Honda, Avtech, Himalaya, and Sansera.',
+            'Academic Collaborations with institutions like BMS College of Engineering, PES University, Dayanand Sagar College of Engineering, and Taylors University.',
+            'International Presence at global summits, promoting education and collaboration'
         ],
         instagram: 'https://www.instagram.com/jeeviiii',
         linkedin: 'https://www.linkedin.com/in/jeevitha-p-raju-79857610b',
