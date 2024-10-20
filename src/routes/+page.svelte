@@ -58,6 +58,15 @@
 	];
 </script>
 
+
+<svelte:head>
+	<title>Leadership Innovation World | Symposium</title>
+	<meta
+		name="description"
+		content="Discover the Leadership Innovation World with our mission to reshape education."
+	/>
+</svelte:head>
+
 <Hero />
 <WhoWeAre />
 <WhatWeProvide />

@@ -32,6 +32,7 @@
 		"@fontsource/bricolage-grotesque": "^5.0.7",
 		"@fontsource/inter": "^5.0.20",
 		"@fontsource/playfair-display": "^5.0.25",
+		"@sveltejs/adapter-static": "^3.0.5",
 		"bits-ui": "^0.21.16",
 		"clsx": "^2.1.1",
 		"embla-carousel-autoplay": "^8.3.0",

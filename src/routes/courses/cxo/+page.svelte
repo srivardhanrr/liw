@@ -925,6 +925,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>L-1 or Level-1 Corporate Training Program (CXO)</title>
+</svelte:head>
+
 <div class="min-h-screen bg-white">
 	<div class="container mx-auto px-4 py-16">
 		<h1 class="mb-8 font-playfair text-4xl text-brand-burgundy md:text-5xl">

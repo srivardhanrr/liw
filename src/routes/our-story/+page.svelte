@@ -22,7 +22,7 @@
     },
     {
         name: 'Rohit Rammurthy',
-        title: 'Head of Strategy and Business Development at Arvind Industries',
+        title: 'Director of Leadership Innovation World',
         image: '/images/rohit.png',
         background: 'Rohit Rammurthy has a solid academic foundation and extensive business experience. He has taught at prestigious institutions and has developed expertise in marketing, strategic management, and entrepreneurship.',
         achievements: [
@@ -105,21 +105,7 @@
 {/each}
   
 
-<div class="mx-16 my-16 border-l-4 border-brand-gold pl-6">
-	<h3 class="mb-4 font-playfair text-2xl text-brand-burgundy">
-		Unlock Your Startup's Hidden Potential
-	</h3>
-	<p class="mb-6 font-bricolage text-lg text-gray-700">
-		What if you could reduce your startup's waste by 30% next quarter—would you let that opportunity
-		pass by?
-	</p>
-	<a
-		href="/courses/startup"
-		class="font-bricolage uppercase tracking-wider text-brand-gold transition duration-300 hover:text-brand-burgundy"
-	>
-		Learn More →
-	</a>
-</div>
+
 <!-- <AboutFounders /> -->
 <!-- <OurTeam /> -->
 
@@ -154,3 +140,19 @@
 		</div>
 	</div>
 </section>
+
+<div class="mx-16 my-16 border-l-4 border-brand-gold pl-6">
+	<h3 class="mb-4 font-playfair text-2xl text-brand-burgundy">
+		Unlock Your Startup's Hidden Potential
+	</h3>
+	<p class="mb-6 font-bricolage text-lg text-gray-700">
+		What if you could reduce your startup's waste by 30% next quarter—would you let that opportunity
+		pass by?
+	</p>
+	<a
+		href="/courses/startup"
+		class="font-bricolage uppercase tracking-wider text-brand-gold transition duration-300 hover:text-brand-burgundy"
+	>
+		Learn More →
+	</a>
+</div>
