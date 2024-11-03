@@ -32,7 +32,7 @@
     <div class="flex flex-col md:flex-row items-start justify-between relative z-10 max-w-5xl mx-auto">
       <!-- Content Column -->
       <div class="text-center md:text-left max-w-3xl mx-auto md:mx-0">
-        <div class="bg-gray-50 p-8 rounded-lg shadow-lg border border-gray-100">
+        <div class="p-8 rounded-lg">
           <p class="text-md md:text-lg font-inter text-brand-dark leading-relaxed mb-6">
             Leadership Innovation World (LIW) is proud to be the exclusive agent for Leaders Excellence at Harvard Square in India, offering premier leadership development programs to schools and universities.
           </p>
