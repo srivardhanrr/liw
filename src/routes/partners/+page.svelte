@@ -2,6 +2,14 @@
 	import Partnership from "$lib/components/sections/Partnership.svelte";
 
 </script>
+
+<svelte:head>
+	<title>Leadership Innovation World | Partners</title>
+	<meta
+		name="description"
+		content="Leadership Innovation World Partners with Leaders Excellence."
+	/>
+</svelte:head>
 <Partnership />
 <section class="bg-gradient-to-b from-white to-gray-50 py-24 overflow-hidden">
 	<div class="container mx-auto px-4 relative">

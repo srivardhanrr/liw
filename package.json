@@ -38,6 +38,7 @@
 		"embla-carousel-autoplay": "^8.3.0",
 		"embla-carousel-svelte": "^8.3.0",
 		"iconify": "^1.4.0",
+		"lenis": "^1.1.16",
 		"lucide-svelte": "^0.439.0",
 		"svelte-radix": "^1.1.1",
 		"swiper": "^11.1.12",

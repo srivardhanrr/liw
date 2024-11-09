@@ -5,6 +5,21 @@
     import {fly} from 'svelte/transition';
 	import Header from '$lib/components/sections/Header.svelte';
 	import Footer from '$lib/components/sections/Footer.svelte';
+    import { browser } from '$app/environment'
+    import { onMount, onDestroy } from 'svelte'
+    import { initLenis, destroyLenis } from '$lib/lenis'
+
+    onMount(() => {
+        if (browser) {
+            initLenis()
+        }
+    })
+
+    onDestroy(() => {
+        if (browser) {
+            destroyLenis()
+        }
+    })
 </script>
 
 <div class="app">
