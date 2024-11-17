@@ -11,7 +11,7 @@
   {#if testimonials.length > 0}
   <section class="py-16 bg-white">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-playfair font-bold text-brand-burgundy mb-8 text-center">What Others Say About Us</h2>
+      <h2 class="text-3xl font-playfair font-bold text-brand-burgundy mb-8 text-center">Leadership Insights from Our Inspiring Speakers</h2>
       
       <Carousel.Root opts={{
         align: "start",
@@ -28,15 +28,15 @@
                     <Card class="bg-red-50 h-[400px] flex flex-col">
                       <CardContent class="p-6 flex flex-col h-full">
                         <div class="flex flex-col items-center mb-4">
-                          <Avatar class="w-16 h-16 mb-2">
+                          <Avatar class="w-20 h-20 mb-2">
                             <AvatarImage src={testimonial.image} alt={testimonial.name} />
                             <AvatarFallback>{testimonial.name[0]}</AvatarFallback>
                           </Avatar>
                           <h3 class="font-bricolage font-semibold text-lg text-brand-burgundy text-center">{testimonial.name}</h3>
-                          <p class="text-sm text-gray-600 text-center">{testimonial.position}</p>
+                          <p class="text-sm mt-2 text-gray-600 text-center">{testimonial.position}</p>
                         </div>
                         <div class="flex-grow overflow-y-auto">
-                          <p class="text-sm text-brand-black italic">&ldquo;{testimonial.content}&rdquo;</p>
+                          <p class="text-sm text-brand-black">{testimonial.content}</p>
                         </div>
                       </CardContent>
                     </Card>

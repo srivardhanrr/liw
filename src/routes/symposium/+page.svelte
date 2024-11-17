@@ -53,7 +53,7 @@
     <EventVideo videoId="sGHtsaHqfJ8" title="BNMIT X LIW Symposium" />
     <Gallery />
     <AgendaOverview />
-    <Calendly />
+    <!-- <Calendly /> -->
     <SpeakerCallout />
     <section class="container mx-auto px-4 py-16 bg-brand-gold bg-opacity-10">
       <h2 class="font-playfair text-3xl md:text-4xl text-center font-bold mb-8 text-brand-burgundy">Why Host a Symposium at Your Institution?</h2>

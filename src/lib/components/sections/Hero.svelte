@@ -42,7 +42,7 @@
 		<div class="relative h-full w-full">
 			<div class="absolute inset-0 z-10"></div>
 			<img
-				src="/images/liw-hero.svg"
+				src="/images/liw-hero.webp"
 				alt="Students collaborating with industry professionals"
 				class="h-full w-full object-cover"
 			/>

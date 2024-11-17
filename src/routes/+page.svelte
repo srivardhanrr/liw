@@ -79,7 +79,7 @@
 	</p>
 </div>
 <CourseFinderForm {form} />
-<Calendly />
+<!-- <Calendly /> -->
 
 <OurApproach />
 <Partnership />
