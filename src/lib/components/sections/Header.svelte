@@ -31,8 +31,8 @@
 	class:translate-y-0={headerVisible}
 	class:-translate-y-full={!headerVisible}
 >
-	<div class="container mx-auto flex h-full items-center justify-between">
-		<nav class="hidden flex-1 items-center space-x-6 text-sm md:flex">
+	<div class="container -ml-5 mx-auto flex h-full items-center justify-between">
+		<nav class="hidden flex-1 items-center space-x-4 text-sm md:flex">
 			<!-- <a href="/our-story" class="text-foreground hover:text-primary transition-colors">About Us</a> -->
 			<DropdownMenu.Root>
 				<DropdownMenu.Trigger class="hover:text-brand-burgundy">About Us</DropdownMenu.Trigger>
@@ -52,6 +52,7 @@
 			<a href="/symposium" class="text-foreground transition-colors hover:text-primary">Symposium</a>
 			<a href="/courses" class="text-foreground transition-colors hover:text-primary">Courses</a>
 			<a href="/partners" class="text-foreground hover:text-primary transition-colors">Our Partners</a>
+			<a href="/news" class="text-foreground hover:text-primary transition-colors">News</a>
 			<a href="/contact" class="text-foreground transition-colors hover:text-primary">Contact Us</a>
 		</nav>
 

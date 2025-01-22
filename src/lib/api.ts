@@ -12,6 +12,8 @@ async function fetchAPI(endpoint: string) {
 export const api = {
 	getBlogPosts: () => fetchAPI('/blogs/'),
 	getBlogPost: (slug: string) => fetchAPI(`/blogs/${slug}/`),
+	getNewsPosts: () => fetchAPI('/news/'),
+	getNewsPost: (slug: string) => fetchAPI(`/news/${slug}/`),
 	getCaseStudies: () => fetchAPI('/case-studies/'),
 	getCaseStudy: (slug: string) => fetchAPI(`/case-studies/${slug}/`),
 	getTestimonials: () => fetchAPI('/testimonials/'),
