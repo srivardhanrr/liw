@@ -109,7 +109,6 @@
 </div>
 
 <AudienceSelection />
-<GoalsAndMission />
 <Testimonials testimonials={data.testimonials} />
 <KeyBenefits />
 

@@ -26,6 +26,12 @@
               <Facebook size={20} />
             </a> -->
 					<a
+						href=" https://www.linkedin.com/company/leadership-innovation-world/posts/?feedView=all "
+						class="text-brand-burgundy transition-colors hover:text-brand-gold"
+					>
+						<Linkedin size={20} />
+					</a>
+					<a
 						href="https://x.com/liw_symposium"
 						class="text-brand-burgundy transition-colors hover:text-brand-gold"
 					>
@@ -84,11 +90,11 @@
 
 			<div class="gradient-border-r">
 				<h3 class="mb-4 text-lg font-semibold text-brand-burgundy">Address:</h3>
-				<p>Bengaluru, India</p>
+				<p>JP Nagar,Bengaluru, India</p>
 				<h3 class="mb-4 mt-4 text-lg font-semibold text-brand-burgundy">Email:</h3>
 				<p>info@leadershipinnovationworld.com</p>
 				<h3 class="mb-4 mt-4 text-lg font-semibold text-brand-burgundy">Phone:</h3>
-				<p>+91 74066 59377</p>
+				<p>+91 81234 23009</p>
 				<!-- <form on:submit={handleSubscribe} class="space-y-4">
             <Input type="email" placeholder="Enter your email" class="bg-white/10 border-white/20 text-black placeholder-gray-400" />
             <Button type="submit" variant="secondary" class="w-full bg-brand-burgundy text-white">

@@ -70,11 +70,11 @@
 				</div>
 
 				<div in:fade={{ duration: 1000, delay: 1400 }}>
-					<a href="/our-story">
+					<a href="/courses">
 					<button
 						class="hover:bg-brand-amber hover:text-brand-charcoal transform rounded-full bg-brand-burgundy px-8 py-3 font-bricolage text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
 					>
-						See Our Vision
+						Start Your Journey
 						</button>
 					</a>
 				</div>

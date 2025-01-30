@@ -59,7 +59,7 @@
             <ul class="space-y-3 sm:space-y-4 text-sm sm:text-base">
               <li class="flex items-center">
                 <span class="mr-3">📞</span>
-                +91 74066 59377
+                +91 81234 23009
               </li>
               <li class="flex items-center">
                 <span class="mr-3">✉️</span>
@@ -67,13 +67,14 @@
               </li>
               <li class="flex items-center">
                 <span class="mr-3">📍</span>
-                Bengaluru, India
+                JP Nagar, Bengaluru, India
               </li>
             </ul>
           </div>
           <div class="mt-8 sm:mt-12">
             <h3 class="text-lg sm:text-xl font-playfair mb-3 sm:mb-4">Connect With Us</h3>
             <div class="flex space-x-4">
+              <a href=" https://www.linkedin.com/company/leadership-innovation-world/posts/?feedView=all " class="text-white hover:text-brand-dark transition duration-300 text-sm sm:text-base">LinkedIn</a>
               <a href="https://x.com/liw_symposium" class="text-white hover:text-brand-dark transition duration-300 text-sm sm:text-base">Twitter</a>
               <a href="https://www.instagram.com/leadershipinnovationworld" class="text-white hover:text-brand-dark transition duration-300 text-sm sm:text-base">Instagram</a>
             </div>

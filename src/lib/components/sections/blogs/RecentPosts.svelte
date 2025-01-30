@@ -28,7 +28,7 @@
         {#if isMobile}
             <Carousel.Root opts={{ align: "start" }}>
                 <Carousel.Content>
-                    {#each posts.slice(0, 3) as post}
+                    {#each posts.slice(0, 2) as post}
                         <Carousel.Item class="md:basis-1/2 lg:basis-1/3">
                             <div class="bg-white rounded-lg overflow-hidden">
                                 {#if post.image}

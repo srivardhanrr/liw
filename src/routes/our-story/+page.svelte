@@ -4,6 +4,8 @@
 	import OurJouney from '$lib/components/sections/about-us/OurJouney.svelte';
 	import OurStoryHero from '$lib/components/sections/about-us/OurStoryHero.svelte';
 	import OurTeam from '$lib/components/sections/about-us/OurTeam.svelte';
+	import GoalsAndMission from '$lib/components/sections/GoalsAndMission.svelte';
+	import Testimonials from '$lib/components/sections/Testimonials.svelte';
 
 	const founders_details = [
     {
@@ -31,7 +33,7 @@
             'Delivered impactful sessions at Harvard University and IIM Bangalore.',
             'Recognized as Young Professor of the Year 2021 and Young Education Leader of the Year 2023.'
         ],
-        instagram: 'https://www.instagram.com/rohitrammurthy',
+        // instagram: 'https://www.instagram.com/rohitrammurthy',
         linkedin: 'https://www.linkedin.com/in/rohit-rammurthy/',
     }
 ];
@@ -108,8 +110,10 @@
 
 <!-- <AboutFounders /> -->
 <!-- <OurTeam /> -->
+<GoalsAndMission />
 
-<section id="full-story" class="bg-white">
+
+<section id="full-story" class="bg-white mt-5">
 	<div class="container mx-auto px-4">
 		<div class="mx-auto max-w-3xl">
 			<h2 class="mb-8 font-playfair text-3xl text-brand-burgundy md:text-4xl">Our Journey</h2>
