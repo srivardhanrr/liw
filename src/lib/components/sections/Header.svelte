@@ -52,7 +52,7 @@
 			<a href="/symposium" class="text-foreground transition-colors hover:text-primary">Symposium</a>
 			<a href="/courses" class="text-foreground transition-colors hover:text-primary">Courses</a>
 			<a href="/partners" class="text-foreground hover:text-primary transition-colors">Our Partners</a>
-			<a href="/programs/korean-exchange-program" class="text-foreground hover:text-primary transition-colors">Korean Exchange</a>
+			<a href="/programs/korean-exchange-program" class="text-foreground hover:text-primary transition-colors">International</a>
 			<a href="/contact" class="text-foreground transition-colors hover:text-primary">Contact Us</a>
 		</nav>
 
