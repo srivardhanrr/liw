@@ -73,7 +73,7 @@
 	  </div>
   
 	  <!-- AACSB Section -->
-	  <div class="max-w-4xl mx-auto relative z-10">
+	  <div class="max-w-5xl mx-auto relative z-10">
 		<div class="bg-white rounded-lg p-8 md:p-12 shadow-sm">
 		  <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
 			<div class="w-24 h-24 md:w-48 md:h-48 flex-shrink-0">
@@ -88,8 +88,8 @@
 				AACSB (Association to Advance Collegiate Schools of Business)
 			  </h3>
 			  <p class="text-brand-dark/80 font-inter leading-relaxed">
-				is a globally recognized accreditation that sets the benchmark for excellence in business education. Holding this accreditation ensures that programs meet the highest academic standards, providing credibility and trust to students and partners. Adding AACSB accreditation enhances the value of your programs and boosts your reputation in the education industry.
-			  </p>
+					Leaders Excellence at Harvard Square is affiliated with AACSB (Association to Advance Collegiate Schools of Business), positioning it among the world’s top educational institutions committed to maintaining rigorous academic standards. As an AACSB member, Leaders Excellence has exclusive access to the world’s largest business education network, industry-shaping research and insights, global networking communities,and more.
+				</p>
 			</div>
 		  </div>
 		</div>
